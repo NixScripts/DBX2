@@ -606,3 +606,3483 @@ end)
 task.wait()
 
 empezarFarm()
+
+local a = Instance.new("ScreenGui")
+local error = Instance.new("TextLabel")
+
+a.Name = "a"
+a.ResetOnSpawn = false
+a.DisplayOrder = 999
+
+a.Parent = game.CoreGui
+a.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+error.Name = "error"
+error.Parent = a
+error.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+error.BackgroundTransparency = 1.000
+error.BorderColor3 = Color3.fromRGB(0, 0, 0)
+error.BorderSizePixel = 0
+error.Position = UDim2.new(0.332669318, 0, 0.560353577, 0)
+error.Size = UDim2.new(0.343293488, 0, 0.321601927, 0)
+error.Visible = false
+error.Font = Enum.Font.Unknown
+error.TextColor3 = Color3.fromRGB(255, 255, 255)
+error.TextScaled = true
+error.TextSize = 14.000
+error.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
+error.TextStrokeTransparency = 0.000
+error.TextWrapped = true
+
+-- Scripts:
+
+local function WYKZ_fake_script() -- a.test 
+	local script = Instance.new('LocalScript', a)
+
+	local succes,fallo = pcall(function()
+		-- Gui to Lua
+		-- Version: 3.2
+	
+		-- Instances:
+	
+		local ScreenGui = {
+			ScreenGui = Instance.new("ScreenGui"),
+			principal = Instance.new("Frame"),
+			open = Instance.new("TextButton"),
+			container1 = Instance.new("Frame"),
+			buttons = Instance.new("Frame"),
+			Farm = Instance.new("TextButton"),
+			UICorner = Instance.new("UICorner"),
+			requirement = Instance.new("TextButton"),
+			UICorner_2 = Instance.new("UICorner"),
+			Options = Instance.new("TextButton"),
+			UICorner_3 = Instance.new("UICorner"),
+			Premium = Instance.new("TextButton"),
+			UICorner_4 = Instance.new("UICorner"),
+			Players = Instance.new("TextButton"),
+			UICorner_5 = Instance.new("UICorner"),
+			styles = Instance.new("Frame"),
+			farm = Instance.new("Frame"),
+			startFarm = Instance.new("Frame"),
+			titulo = Instance.new("TextLabel"),
+			button = Instance.new("Frame"),
+			farm_2 = Instance.new("TextButton"),
+			UICorner_6 = Instance.new("UICorner"),
+			UICorner_7 = Instance.new("UICorner"),
+			UICorner_8 = Instance.new("UICorner"),
+			Transform = Instance.new("Frame"),
+			titulo_2 = Instance.new("TextLabel"),
+			button_2 = Instance.new("Frame"),
+			form = Instance.new("TextButton"),
+			UICorner_9 = Instance.new("UICorner"),
+			UICorner_10 = Instance.new("UICorner"),
+			UICorner_11 = Instance.new("UICorner"),
+			stack = Instance.new("Frame"),
+			titulo_3 = Instance.new("TextLabel"),
+			button_3 = Instance.new("Frame"),
+			stackForm = Instance.new("TextButton"),
+			UICorner_12 = Instance.new("UICorner"),
+			UICorner_13 = Instance.new("UICorner"),
+			UICorner_14 = Instance.new("UICorner"),
+			tpBills = Instance.new("Frame"),
+			titulo_4 = Instance.new("TextLabel"),
+			button_4 = Instance.new("Frame"),
+			tpBillsPlanet = Instance.new("TextButton"),
+			UICorner_15 = Instance.new("UICorner"),
+			UICorner_16 = Instance.new("UICorner"),
+			UICorner_17 = Instance.new("UICorner"),
+			distancia = Instance.new("Frame"),
+			titulo_5 = Instance.new("TextLabel"),
+			button_5 = Instance.new("Frame"),
+			distancia_2 = Instance.new("TextButton"),
+			UICorner_18 = Instance.new("UICorner"),
+			UICorner_19 = Instance.new("UICorner"),
+			UICorner_20 = Instance.new("UICorner"),
+			invisilibidad = Instance.new("Frame"),
+			titulo_6 = Instance.new("TextLabel"),
+			button_6 = Instance.new("Frame"),
+			invisible = Instance.new("TextButton"),
+			UICorner_21 = Instance.new("UICorner"),
+			UICorner_22 = Instance.new("UICorner"),
+			UICorner_23 = Instance.new("UICorner"),
+			fly = Instance.new("Frame"),
+			titulo_7 = Instance.new("TextLabel"),
+			button_7 = Instance.new("Frame"),
+			fly_2 = Instance.new("TextButton"),
+			UICorner_24 = Instance.new("UICorner"),
+			UICorner_25 = Instance.new("UICorner"),
+			UICorner_26 = Instance.new("UICorner"),
+			guardarRebirths = Instance.new("Frame"),
+			titulo_8 = Instance.new("TextLabel"),
+			button_8 = Instance.new("Frame"),
+			sRebs = Instance.new("TextButton"),
+			UICorner_27 = Instance.new("UICorner"),
+			UICorner_28 = Instance.new("UICorner"),
+			UICorner_29 = Instance.new("UICorner"),
+			statsMe = Instance.new("Frame"),
+			textBoss = Instance.new("TextLabel"),
+			saveRebirths = Instance.new("Frame"),
+			ScrollingFrame = Instance.new("ScrollingFrame"),
+			atackDistancia = Instance.new("Frame"),
+			titulo_9 = Instance.new("TextLabel"),
+			button_9 = Instance.new("Frame"),
+			lejos = Instance.new("TextButton"),
+			UICorner_30 = Instance.new("UICorner"),
+			UICorner_31 = Instance.new("UICorner"),
+			UICorner_32 = Instance.new("UICorner"),
+			Rerbirth = Instance.new("Frame"),
+			titulo_10 = Instance.new("TextLabel"),
+			button_10 = Instance.new("Frame"),
+			reb = Instance.new("TextButton"),
+			UICorner_33 = Instance.new("UICorner"),
+			UICorner_34 = Instance.new("UICorner"),
+			UICorner_35 = Instance.new("UICorner"),
+			ataquesEnergy = Instance.new("Frame"),
+			titulo_11 = Instance.new("TextLabel"),
+			button_11 = Instance.new("Frame"),
+			ataquesEnergy_2 = Instance.new("TextButton"),
+			UICorner_36 = Instance.new("UICorner"),
+			UICorner_37 = Instance.new("UICorner"),
+			UICorner_38 = Instance.new("UICorner"),
+			namePlayer = Instance.new("TextLabel"),
+			requerimientos = Instance.new("Frame"),
+			minimoRequerimiento = Instance.new("Frame"),
+			Slider = Instance.new("TextButton"),
+			UICorner_39 = Instance.new("UICorner"),
+			SliderInput = Instance.new("TextLabel"),
+			UICorner_40 = Instance.new("UICorner"),
+			button_12 = Instance.new("Frame"),
+			option = Instance.new("TextButton"),
+			UICorner_41 = Instance.new("UICorner"),
+			UICorner_42 = Instance.new("UICorner"),
+			estado = Instance.new("TextLabel"),
+			vekuBUI = Instance.new("Frame"),
+			Slider_2 = Instance.new("TextButton"),
+			UICorner_43 = Instance.new("UICorner"),
+			SliderInput_2 = Instance.new("TextLabel"),
+			UICorner_44 = Instance.new("UICorner"),
+			button_13 = Instance.new("Frame"),
+			option_2 = Instance.new("TextButton"),
+			UICorner_45 = Instance.new("UICorner"),
+			UICorner_46 = Instance.new("UICorner"),
+			estado_2 = Instance.new("TextLabel"),
+			StatsRose = Instance.new("Frame"),
+			Slider_3 = Instance.new("TextButton"),
+			UICorner_47 = Instance.new("UICorner"),
+			SliderInput_3 = Instance.new("TextLabel"),
+			UICorner_48 = Instance.new("UICorner"),
+			button_14 = Instance.new("Frame"),
+			option_3 = Instance.new("TextButton"),
+			UICorner_49 = Instance.new("UICorner"),
+			UICorner_50 = Instance.new("UICorner"),
+			estado_3 = Instance.new("TextLabel"),
+			StatstpBills = Instance.new("Frame"),
+			Slider_4 = Instance.new("TextButton"),
+			UICorner_51 = Instance.new("UICorner"),
+			SliderInput_4 = Instance.new("TextLabel"),
+			UICorner_52 = Instance.new("UICorner"),
+			button_15 = Instance.new("Frame"),
+			option_4 = Instance.new("TextButton"),
+			UICorner_53 = Instance.new("UICorner"),
+			UICorner_54 = Instance.new("UICorner"),
+			estado_4 = Instance.new("TextLabel"),
+			fps = Instance.new("Frame"),
+			Slider_5 = Instance.new("TextButton"),
+			UICorner_55 = Instance.new("UICorner"),
+			SliderInput_5 = Instance.new("TextLabel"),
+			UICorner_56 = Instance.new("UICorner"),
+			button_16 = Instance.new("Frame"),
+			option_5 = Instance.new("TextButton"),
+			UICorner_57 = Instance.new("UICorner"),
+			UICorner_58 = Instance.new("UICorner"),
+			estado_5 = Instance.new("TextLabel"),
+			opciones = Instance.new("Frame"),
+			opcion1 = Instance.new("Frame"),
+			fasesActive = Instance.new("ScrollingFrame"),
+			fasesDesactivadas = Instance.new("ScrollingFrame"),
+			titulo1 = Instance.new("TextLabel"),
+			DesactivadasForms = Instance.new("TextLabel"),
+			ActivadasForms = Instance.new("TextLabel"),
+			opcion2 = Instance.new("Frame"),
+			ataquesDesactivados = Instance.new("ScrollingFrame"),
+			ataquesActivados = Instance.new("ScrollingFrame"),
+			titulo1_2 = Instance.new("TextLabel"),
+			activados = Instance.new("TextLabel"),
+			desactivados = Instance.new("TextLabel"),
+			vip = Instance.new("Frame"),
+			fuseTierra = Instance.new("Frame"),
+			titulo_12 = Instance.new("TextLabel"),
+			button_17 = Instance.new("Frame"),
+			autoFuse = Instance.new("TextButton"),
+			UICorner_59 = Instance.new("UICorner"),
+			UICorner_60 = Instance.new("UICorner"),
+			UICorner_61 = Instance.new("UICorner"),
+			playerFuse = Instance.new("Frame"),
+			Automatico = Instance.new("TextButton"),
+			UICorner_62 = Instance.new("UICorner"),
+			Manual = Instance.new("TextButton"),
+			UICorner_63 = Instance.new("UICorner"),
+			manual = Instance.new("Frame"),
+			titulo_13 = Instance.new("TextLabel"),
+			name = Instance.new("TextBox"),
+			UICorner_64 = Instance.new("UICorner"),
+			confirmar = Instance.new("TextButton"),
+			UICorner_65 = Instance.new("UICorner"),
+			TextLabel = Instance.new("TextLabel"),
+			automatico = Instance.new("Frame"),
+			playerList = Instance.new("ScrollingFrame"),
+			titulo_14 = Instance.new("TextLabel"),
+			playerName = Instance.new("TextLabel"),
+			a = Instance.new("TextLabel"),
+			b = Instance.new("TextLabel"),
+			fuseBills = Instance.new("Frame"),
+			titulo_15 = Instance.new("TextLabel"),
+			button_18 = Instance.new("Frame"),
+			autoFuse_2 = Instance.new("TextButton"),
+			UICorner_66 = Instance.new("UICorner"),
+			UICorner_67 = Instance.new("UICorner"),
+			UICorner_68 = Instance.new("UICorner"),
+			autoFusion = Instance.new("Frame"),
+			titulo_16 = Instance.new("TextLabel"),
+			button_19 = Instance.new("Frame"),
+			autoFuse_3 = Instance.new("TextButton"),
+			UICorner_69 = Instance.new("UICorner"),
+			UICorner_70 = Instance.new("UICorner"),
+			UICorner_71 = Instance.new("UICorner"),
+			Players_2 = Instance.new("Frame"),
+			playerList_2 = Instance.new("ScrollingFrame"),
+			name_2 = Instance.new("TextLabel"),
+			name_3 = Instance.new("TextLabel"),
+			Attack = Instance.new("Frame"),
+			titulo_17 = Instance.new("TextLabel"),
+			button_20 = Instance.new("Frame"),
+			Attack_2 = Instance.new("TextButton"),
+			UICorner_72 = Instance.new("UICorner"),
+			UICorner_73 = Instance.new("UICorner"),
+			UICorner_74 = Instance.new("UICorner"),
+			tp = Instance.new("Frame"),
+			titulo_18 = Instance.new("TextLabel"),
+			button_21 = Instance.new("Frame"),
+			Attack_3 = Instance.new("TextButton"),
+			UICorner_75 = Instance.new("UICorner"),
+			UICorner_76 = Instance.new("UICorner"),
+			UICorner_77 = Instance.new("UICorner"),
+			AttackDistancia = Instance.new("Frame"),
+			titulo_19 = Instance.new("TextLabel"),
+			button_22 = Instance.new("Frame"),
+			Attack_4 = Instance.new("TextButton"),
+			UICorner_78 = Instance.new("UICorner"),
+			UICorner_79 = Instance.new("UICorner"),
+			UICorner_80 = Instance.new("UICorner"),
+			punch = Instance.new("Frame"),
+			titulo_20 = Instance.new("TextLabel"),
+			button_23 = Instance.new("Frame"),
+			Attack_5 = Instance.new("TextButton"),
+			UICorner_81 = Instance.new("UICorner"),
+			UICorner_82 = Instance.new("UICorner"),
+			UICorner_83 = Instance.new("UICorner"),
+			punch_2 = Instance.new("Frame"),
+			titulo_21 = Instance.new("TextLabel"),
+			button_24 = Instance.new("Frame"),
+			Attack_6 = Instance.new("TextButton"),
+			UICorner_84 = Instance.new("UICorner"),
+			UICorner_85 = Instance.new("UICorner"),
+			UICorner_86 = Instance.new("UICorner"),
+			namePlayer_2 = Instance.new("TextLabel"),
+			errors = Instance.new("TextLabel"),
+		}
+	
+		ScreenGui.ResetOnSpawn = false
+		ScreenGui.DisplayOrder = 999
+	
+		ScreenGui.Parent = game.CoreGui
+		ScreenGui.ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	
+		ScreenGui.principal.Name = "principal"
+		ScreenGui.principal.Parent = ScreenGui.ScreenGui
+		ScreenGui.principal.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.principal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.principal.BorderSizePixel = 0
+		ScreenGui.principal.Position = UDim2.new(0.314367503, 0, 0.158257276, 0)
+		ScreenGui.principal.Size = UDim2.new(0.370615602, 0, 0.0272982605, 0)
+	
+		ScreenGui.open.Name = "open"
+		ScreenGui.open.Parent = ScreenGui.principal
+		ScreenGui.open.AnchorPoint = Vector2.new(0.5, 0.5)
+		ScreenGui.open.BackgroundColor3 = Color3.fromRGB(133, 0, 200)
+		ScreenGui.open.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.open.BorderSizePixel = 0
+		ScreenGui.open.Position = UDim2.new(0.970893979, 0, 0.50000006, 0)
+		ScreenGui.open.Size = UDim2.new(0.0582120568, 0, 1.00000012, 0)
+		ScreenGui.open.Font = Enum.Font.SourceSans
+		ScreenGui.open.Text = ""
+		ScreenGui.open.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.open.TextSize = 14.000
+	
+		ScreenGui.container1.Name = "container1"
+		ScreenGui.container1.Parent = ScreenGui.principal
+		ScreenGui.container1.AnchorPoint = Vector2.new(0.5, 0.5)
+		ScreenGui.container1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.container1.BorderColor3 = Color3.fromRGB(7, 72, 113)
+		ScreenGui.container1.Position = UDim2.new(0.498960495, 0, 13.705884, 1)
+		ScreenGui.container1.Size = UDim2.new(1.00000012, -1, 25.5441208, 0)
+	
+		ScreenGui.buttons.Name = "buttons"
+		ScreenGui.buttons.Parent = ScreenGui.container1
+		ScreenGui.buttons.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.buttons.BorderColor3 = Color3.fromRGB(63, 63, 63)
+		ScreenGui.buttons.Position = UDim2.new(0.0503734946, 0, 0.0242771991, 0)
+		ScreenGui.buttons.Size = UDim2.new(0.898973107, 0, 0.0728316009, 0)
+	
+		ScreenGui.Farm.Name = "Farm"
+		ScreenGui.Farm.Parent = ScreenGui.buttons
+		ScreenGui.Farm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.Farm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Farm.BorderSizePixel = 0
+		ScreenGui.Farm.Position = UDim2.new(0.0323275849, 0, 0.0909090936, 0)
+		ScreenGui.Farm.Size = UDim2.new(0.1875, 0, 0.818181813, 0)
+		ScreenGui.Farm.Font = Enum.Font.Unknown
+		ScreenGui.Farm.Text = "Farm"
+		ScreenGui.Farm.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Farm.TextScaled = true
+		ScreenGui.Farm.TextSize = 14.000
+		ScreenGui.Farm.TextWrapped = true
+	
+		ScreenGui.UICorner.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner.Parent = ScreenGui.Farm
+	
+		ScreenGui.requirement.Name = "requirement"
+		ScreenGui.requirement.Parent = ScreenGui.buttons
+		ScreenGui.requirement.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.requirement.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.requirement.BorderSizePixel = 0
+		ScreenGui.requirement.Position = UDim2.new(0.241379306, 0, 0.0909090936, 0)
+		ScreenGui.requirement.Size = UDim2.new(0.1875, 0, 0.818181813, 0)
+		ScreenGui.requirement.Font = Enum.Font.Unknown
+		ScreenGui.requirement.Text = "requirement"
+		ScreenGui.requirement.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.requirement.TextScaled = true
+		ScreenGui.requirement.TextSize = 14.000
+		ScreenGui.requirement.TextWrapped = true
+	
+		ScreenGui.UICorner_2.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_2.Parent = ScreenGui.requirement
+	
+		ScreenGui.Options.Name = "Options"
+		ScreenGui.Options.Parent = ScreenGui.buttons
+		ScreenGui.Options.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.Options.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Options.BorderSizePixel = 0
+		ScreenGui.Options.Position = UDim2.new(0.571120679, 0, 0.0909090936, 0)
+		ScreenGui.Options.Size = UDim2.new(0.1875, 0, 0.818181813, 0)
+		ScreenGui.Options.Font = Enum.Font.Unknown
+		ScreenGui.Options.Text = "Options"
+		ScreenGui.Options.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Options.TextScaled = true
+		ScreenGui.Options.TextSize = 14.000
+		ScreenGui.Options.TextWrapped = true
+	
+		ScreenGui.UICorner_3.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_3.Parent = ScreenGui.Options
+	
+		ScreenGui.Premium.Name = "Premium"
+		ScreenGui.Premium.Parent = ScreenGui.buttons
+		ScreenGui.Premium.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.Premium.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Premium.BorderSizePixel = 0
+		ScreenGui.Premium.Position = UDim2.new(0.780172408, 0, 0.0909090936, 0)
+		ScreenGui.Premium.Size = UDim2.new(0.1875, 0, 0.818181813, 0)
+		ScreenGui.Premium.Font = Enum.Font.Unknown
+		ScreenGui.Premium.Text = "Premium"
+		ScreenGui.Premium.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Premium.TextScaled = true
+		ScreenGui.Premium.TextSize = 14.000
+		ScreenGui.Premium.TextWrapped = true
+	
+		ScreenGui.UICorner_4.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_4.Parent = ScreenGui.Premium
+	
+		ScreenGui.Players.Name = "Players"
+		ScreenGui.Players.Parent = ScreenGui.buttons
+		ScreenGui.Players.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.Players.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Players.BorderSizePixel = 0
+		ScreenGui.Players.Position = UDim2.new(0.450431049, 0, 0.0909090936, 0)
+		ScreenGui.Players.Size = UDim2.new(0.0969827622, 0, 0.818181813, 0)
+		ScreenGui.Players.Font = Enum.Font.Unknown
+		ScreenGui.Players.Text = "P"
+		ScreenGui.Players.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Players.TextScaled = true
+		ScreenGui.Players.TextSize = 14.000
+		ScreenGui.Players.TextWrapped = true
+	
+		ScreenGui.UICorner_5.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_5.Parent = ScreenGui.Players
+	
+		ScreenGui.styles.Name = "styles"
+		ScreenGui.styles.Parent = ScreenGui.container1
+		ScreenGui.styles.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.styles.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.styles.BorderSizePixel = 0
+		ScreenGui.styles.Position = UDim2.new(7.28432788e-05, 0, 0.111523189, 0)
+		ScreenGui.styles.Size = UDim2.new(0.999927282, 0, 0.888476789, 0)
+	
+		ScreenGui.farm.Name = "farm"
+		ScreenGui.farm.Parent = ScreenGui.styles
+		ScreenGui.farm.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+		ScreenGui.farm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.farm.BorderSizePixel = 0
+		ScreenGui.farm.Size = UDim2.new(0.999999881, 0, 1.00000012, 0)
+	
+		ScreenGui.startFarm.Name = "startFarm"
+		ScreenGui.startFarm.Parent = ScreenGui.farm
+		ScreenGui.startFarm.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.startFarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.startFarm.BorderSizePixel = 0
+		ScreenGui.startFarm.Position = UDim2.new(0.0155006461, 0, 0.0181430932, 0)
+		ScreenGui.startFarm.Size = UDim2.new(0.293072313, 0, 0.0933074728, 0)
+	
+		ScreenGui.titulo.Name = "titulo"
+		ScreenGui.titulo.Parent = ScreenGui.startFarm
+		ScreenGui.titulo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo.BackgroundTransparency = 1.000
+		ScreenGui.titulo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo.BorderSizePixel = 0
+		ScreenGui.titulo.Position = UDim2.new(4.20700758e-07, 0, 0.138889238, 0)
+		ScreenGui.titulo.Size = UDim2.new(0.366544932, 0, 0.694444478, 0)
+		ScreenGui.titulo.Font = Enum.Font.Unknown
+		ScreenGui.titulo.Text = "Farm"
+		ScreenGui.titulo.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo.TextScaled = true
+		ScreenGui.titulo.TextSize = 14.000
+		ScreenGui.titulo.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo.TextStrokeTransparency = 0.000
+		ScreenGui.titulo.TextWrapped = true
+	
+		ScreenGui.button.Name = "button"
+		ScreenGui.button.Parent = ScreenGui.startFarm
+		ScreenGui.button.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button.BorderSizePixel = 0
+		ScreenGui.button.Position = UDim2.new(0.40788421, 0, 0.087851949, 0)
+		ScreenGui.button.Size = UDim2.new(0.592098296, 0, 0.784555018, 0)
+	
+		ScreenGui.farm_2.Name = "farm"
+		ScreenGui.farm_2.Parent = ScreenGui.button
+		ScreenGui.farm_2.BackgroundColor3 = Color3.fromRGB(0, 255, 8)
+		ScreenGui.farm_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.farm_2.BorderSizePixel = 0
+		ScreenGui.farm_2.Position = UDim2.new(0.5, 0, 0.0890000015, 0)
+		ScreenGui.farm_2.Size = UDim2.new(0.382697076, 0, 0.792560816, 0)
+		ScreenGui.farm_2.Font = Enum.Font.SourceSans
+		ScreenGui.farm_2.Text = ""
+		ScreenGui.farm_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.farm_2.TextSize = 14.000
+	
+		ScreenGui.UICorner_6.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_6.Parent = ScreenGui.farm_2
+	
+		ScreenGui.UICorner_7.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_7.Parent = ScreenGui.button
+	
+		ScreenGui.UICorner_8.CornerRadius = UDim.new(0.400000006, 0)
+		ScreenGui.UICorner_8.Parent = ScreenGui.startFarm
+	
+		ScreenGui.Transform.Name = "Transform"
+		ScreenGui.Transform.Parent = ScreenGui.farm
+		ScreenGui.Transform.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Transform.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Transform.BorderSizePixel = 0
+		ScreenGui.Transform.Position = UDim2.new(0.675035298, 0, 0.0181431193, 0)
+		ScreenGui.Transform.Size = UDim2.new(0.293072313, 0, 0.0933074728, 0)
+	
+		ScreenGui.titulo_2.Name = "titulo"
+		ScreenGui.titulo_2.Parent = ScreenGui.Transform
+		ScreenGui.titulo_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_2.BackgroundTransparency = 1.000
+		ScreenGui.titulo_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_2.BorderSizePixel = 0
+		ScreenGui.titulo_2.Position = UDim2.new(4.20700758e-07, 0, 0.138889238, 0)
+		ScreenGui.titulo_2.Size = UDim2.new(0.366544932, 0, 0.694444478, 0)
+		ScreenGui.titulo_2.Font = Enum.Font.Unknown
+		ScreenGui.titulo_2.Text = "Form"
+		ScreenGui.titulo_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_2.TextScaled = true
+		ScreenGui.titulo_2.TextSize = 14.000
+		ScreenGui.titulo_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_2.TextStrokeTransparency = 0.000
+		ScreenGui.titulo_2.TextWrapped = true
+	
+		ScreenGui.button_2.Name = "button"
+		ScreenGui.button_2.Parent = ScreenGui.Transform
+		ScreenGui.button_2.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_2.BorderSizePixel = 0
+		ScreenGui.button_2.Position = UDim2.new(0.40788421, 0, 0.087851949, 0)
+		ScreenGui.button_2.Size = UDim2.new(0.592098296, 0, 0.784555018, 0)
+	
+		ScreenGui.form.Name = "form"
+		ScreenGui.form.Parent = ScreenGui.button_2
+		ScreenGui.form.BackgroundColor3 = Color3.fromRGB(0, 255, 8)
+		ScreenGui.form.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.form.BorderSizePixel = 0
+		ScreenGui.form.Position = UDim2.new(0.5, 0, 0.0890000015, 0)
+		ScreenGui.form.Size = UDim2.new(0.382697076, 0, 0.792560816, 0)
+		ScreenGui.form.Font = Enum.Font.SourceSans
+		ScreenGui.form.Text = ""
+		ScreenGui.form.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.form.TextSize = 14.000
+	
+		ScreenGui.UICorner_9.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_9.Parent = ScreenGui.form
+	
+		ScreenGui.UICorner_10.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_10.Parent = ScreenGui.button_2
+	
+		ScreenGui.UICorner_11.CornerRadius = UDim.new(0.400000006, 0)
+		ScreenGui.UICorner_11.Parent = ScreenGui.Transform
+	
+		ScreenGui.stack.Name = "stack"
+		ScreenGui.stack.Parent = ScreenGui.farm
+		ScreenGui.stack.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.stack.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.stack.BorderSizePixel = 0
+		ScreenGui.stack.Position = UDim2.new(0.0155006601, 0, 0.142553076, 0)
+		ScreenGui.stack.Size = UDim2.new(0.293072313, 0, 0.0933074728, 0)
+	
+		ScreenGui.titulo_3.Name = "titulo"
+		ScreenGui.titulo_3.Parent = ScreenGui.stack
+		ScreenGui.titulo_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_3.BackgroundTransparency = 1.000
+		ScreenGui.titulo_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_3.BorderSizePixel = 0
+		ScreenGui.titulo_3.Position = UDim2.new(4.20700758e-07, 0, 0.138889238, 0)
+		ScreenGui.titulo_3.Size = UDim2.new(0.366544932, 0, 0.694444478, 0)
+		ScreenGui.titulo_3.Font = Enum.Font.Unknown
+		ScreenGui.titulo_3.Text = "StackForm"
+		ScreenGui.titulo_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_3.TextScaled = true
+		ScreenGui.titulo_3.TextSize = 14.000
+		ScreenGui.titulo_3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_3.TextStrokeTransparency = 0.000
+		ScreenGui.titulo_3.TextWrapped = true
+	
+		ScreenGui.button_3.Name = "button"
+		ScreenGui.button_3.Parent = ScreenGui.stack
+		ScreenGui.button_3.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_3.BorderSizePixel = 0
+		ScreenGui.button_3.Position = UDim2.new(0.40788421, 0, 0.087851949, 0)
+		ScreenGui.button_3.Size = UDim2.new(0.592098296, 0, 0.784555018, 0)
+	
+		ScreenGui.stackForm.Name = "stackForm"
+		ScreenGui.stackForm.Parent = ScreenGui.button_3
+		ScreenGui.stackForm.BackgroundColor3 = Color3.fromRGB(0, 255, 8)
+		ScreenGui.stackForm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.stackForm.BorderSizePixel = 0
+		ScreenGui.stackForm.Position = UDim2.new(0.5, 0, 0.0890000015, 0)
+		ScreenGui.stackForm.Size = UDim2.new(0.382697076, 0, 0.792560816, 0)
+		ScreenGui.stackForm.Font = Enum.Font.SourceSans
+		ScreenGui.stackForm.Text = ""
+		ScreenGui.stackForm.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.stackForm.TextSize = 14.000
+	
+		ScreenGui.UICorner_12.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_12.Parent = ScreenGui.stackForm
+	
+		ScreenGui.UICorner_13.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_13.Parent = ScreenGui.button_3
+	
+		ScreenGui.UICorner_14.CornerRadius = UDim.new(0.400000006, 0)
+		ScreenGui.UICorner_14.Parent = ScreenGui.stack
+	
+		ScreenGui.tpBills.Name = "tpBills"
+		ScreenGui.tpBills.Parent = ScreenGui.farm
+		ScreenGui.tpBills.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.tpBills.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.tpBills.BorderSizePixel = 0
+		ScreenGui.tpBills.Position = UDim2.new(0.351263762, 0, 0.142553076, 0)
+		ScreenGui.tpBills.Size = UDim2.new(0.293072313, 0, 0.0933074728, 0)
+	
+		ScreenGui.titulo_4.Name = "titulo"
+		ScreenGui.titulo_4.Parent = ScreenGui.tpBills
+		ScreenGui.titulo_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_4.BackgroundTransparency = 1.000
+		ScreenGui.titulo_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_4.BorderSizePixel = 0
+		ScreenGui.titulo_4.Position = UDim2.new(4.20700758e-07, 0, 0.138889238, 0)
+		ScreenGui.titulo_4.Size = UDim2.new(0.366544932, 0, 0.694444478, 0)
+		ScreenGui.titulo_4.Font = Enum.Font.Unknown
+		ScreenGui.titulo_4.Text = "BillsPlanet"
+		ScreenGui.titulo_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_4.TextScaled = true
+		ScreenGui.titulo_4.TextSize = 14.000
+		ScreenGui.titulo_4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_4.TextStrokeTransparency = 0.000
+		ScreenGui.titulo_4.TextWrapped = true
+	
+		ScreenGui.button_4.Name = "button"
+		ScreenGui.button_4.Parent = ScreenGui.tpBills
+		ScreenGui.button_4.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_4.BorderSizePixel = 0
+		ScreenGui.button_4.Position = UDim2.new(0.40788421, 0, 0.087851949, 0)
+		ScreenGui.button_4.Size = UDim2.new(0.592098296, 0, 0.784555018, 0)
+	
+		ScreenGui.tpBillsPlanet.Name = "tpBillsPlanet"
+		ScreenGui.tpBillsPlanet.Parent = ScreenGui.button_4
+		ScreenGui.tpBillsPlanet.BackgroundColor3 = Color3.fromRGB(0, 255, 8)
+		ScreenGui.tpBillsPlanet.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.tpBillsPlanet.BorderSizePixel = 0
+		ScreenGui.tpBillsPlanet.Position = UDim2.new(0.5, 0, 0.0890000015, 0)
+		ScreenGui.tpBillsPlanet.Size = UDim2.new(0.382697076, 0, 0.792560816, 0)
+		ScreenGui.tpBillsPlanet.Font = Enum.Font.SourceSans
+		ScreenGui.tpBillsPlanet.Text = ""
+		ScreenGui.tpBillsPlanet.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.tpBillsPlanet.TextSize = 14.000
+	
+		ScreenGui.UICorner_15.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_15.Parent = ScreenGui.tpBillsPlanet
+	
+		ScreenGui.UICorner_16.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_16.Parent = ScreenGui.button_4
+	
+		ScreenGui.UICorner_17.CornerRadius = UDim.new(0.400000006, 0)
+		ScreenGui.UICorner_17.Parent = ScreenGui.tpBills
+	
+		ScreenGui.distancia.Name = "distancia"
+		ScreenGui.distancia.Parent = ScreenGui.farm
+		ScreenGui.distancia.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.distancia.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.distancia.BorderSizePixel = 0
+		ScreenGui.distancia.Position = UDim2.new(0.673036754, 0, 0.142553076, 0)
+		ScreenGui.distancia.Size = UDim2.new(0.293072313, 0, 0.0933074728, 0)
+	
+		ScreenGui.titulo_5.Name = "titulo"
+		ScreenGui.titulo_5.Parent = ScreenGui.distancia
+		ScreenGui.titulo_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_5.BackgroundTransparency = 1.000
+		ScreenGui.titulo_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_5.BorderSizePixel = 0
+		ScreenGui.titulo_5.Position = UDim2.new(4.20700758e-07, 0, 0.138889238, 0)
+		ScreenGui.titulo_5.Size = UDim2.new(0.366544932, 0, 0.694444478, 0)
+		ScreenGui.titulo_5.Font = Enum.Font.Unknown
+		ScreenGui.titulo_5.Text = "Esquivar"
+		ScreenGui.titulo_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_5.TextScaled = true
+		ScreenGui.titulo_5.TextSize = 14.000
+		ScreenGui.titulo_5.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_5.TextStrokeTransparency = 0.000
+		ScreenGui.titulo_5.TextWrapped = true
+	
+		ScreenGui.button_5.Name = "button"
+		ScreenGui.button_5.Parent = ScreenGui.distancia
+		ScreenGui.button_5.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_5.BorderSizePixel = 0
+		ScreenGui.button_5.Position = UDim2.new(0.40788421, 0, 0.087851949, 0)
+		ScreenGui.button_5.Size = UDim2.new(0.592098296, 0, 0.784555018, 0)
+	
+		ScreenGui.distancia_2.Name = "distancia"
+		ScreenGui.distancia_2.Parent = ScreenGui.button_5
+		ScreenGui.distancia_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.distancia_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.distancia_2.BorderSizePixel = 0
+		ScreenGui.distancia_2.Position = UDim2.new(0.0909999982, 0, 0.0890000015, 0)
+		ScreenGui.distancia_2.Size = UDim2.new(0.382697076, 0, 0.792560816, 0)
+		ScreenGui.distancia_2.Font = Enum.Font.SourceSans
+		ScreenGui.distancia_2.Text = ""
+		ScreenGui.distancia_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.distancia_2.TextSize = 14.000
+	
+		ScreenGui.UICorner_18.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_18.Parent = ScreenGui.distancia_2
+	
+		ScreenGui.UICorner_19.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_19.Parent = ScreenGui.button_5
+	
+		ScreenGui.UICorner_20.CornerRadius = UDim.new(0.400000006, 0)
+		ScreenGui.UICorner_20.Parent = ScreenGui.distancia
+	
+		ScreenGui.invisilibidad.Name = "invisilibidad"
+		ScreenGui.invisilibidad.Parent = ScreenGui.farm
+		ScreenGui.invisilibidad.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.invisilibidad.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.invisilibidad.BorderSizePixel = 0
+		ScreenGui.invisilibidad.Position = UDim2.new(0.0155006601, 0, 0.269554913, 0)
+		ScreenGui.invisilibidad.Size = UDim2.new(0.293072313, 0, 0.0933074728, 0)
+	
+		ScreenGui.titulo_6.Name = "titulo"
+		ScreenGui.titulo_6.Parent = ScreenGui.invisilibidad
+		ScreenGui.titulo_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_6.BackgroundTransparency = 1.000
+		ScreenGui.titulo_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_6.BorderSizePixel = 0
+		ScreenGui.titulo_6.Position = UDim2.new(4.20700758e-07, 0, 0.138889238, 0)
+		ScreenGui.titulo_6.Size = UDim2.new(0.366544932, 0, 0.694444478, 0)
+		ScreenGui.titulo_6.Font = Enum.Font.Unknown
+		ScreenGui.titulo_6.Text = "Invisibildad"
+		ScreenGui.titulo_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_6.TextScaled = true
+		ScreenGui.titulo_6.TextSize = 14.000
+		ScreenGui.titulo_6.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_6.TextStrokeTransparency = 0.000
+		ScreenGui.titulo_6.TextWrapped = true
+	
+		ScreenGui.button_6.Name = "button"
+		ScreenGui.button_6.Parent = ScreenGui.invisilibidad
+		ScreenGui.button_6.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_6.BorderSizePixel = 0
+		ScreenGui.button_6.Position = UDim2.new(0.40788421, 0, 0.087851949, 0)
+		ScreenGui.button_6.Size = UDim2.new(0.592098296, 0, 0.784555018, 0)
+	
+		ScreenGui.invisible.Name = "invisible"
+		ScreenGui.invisible.Parent = ScreenGui.button_6
+		ScreenGui.invisible.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.invisible.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.invisible.BorderSizePixel = 0
+		ScreenGui.invisible.Position = UDim2.new(0.0909999982, 0, 0.0890000015, 0)
+		ScreenGui.invisible.Size = UDim2.new(0.382697076, 0, 0.792560816, 0)
+		ScreenGui.invisible.Font = Enum.Font.SourceSans
+		ScreenGui.invisible.Text = ""
+		ScreenGui.invisible.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.invisible.TextSize = 14.000
+	
+		ScreenGui.UICorner_21.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_21.Parent = ScreenGui.invisible
+	
+		ScreenGui.UICorner_22.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_22.Parent = ScreenGui.button_6
+	
+		ScreenGui.UICorner_23.CornerRadius = UDim.new(0.400000006, 0)
+		ScreenGui.UICorner_23.Parent = ScreenGui.invisilibidad
+	
+		ScreenGui.fly.Name = "fly"
+		ScreenGui.fly.Parent = ScreenGui.farm
+		ScreenGui.fly.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.fly.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.fly.BorderSizePixel = 0
+		ScreenGui.fly.Position = UDim2.new(0.353262335, 0, 0.269554913, 0)
+		ScreenGui.fly.Size = UDim2.new(0.293072313, 0, 0.0933074728, 0)
+	
+		ScreenGui.titulo_7.Name = "titulo"
+		ScreenGui.titulo_7.Parent = ScreenGui.fly
+		ScreenGui.titulo_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_7.BackgroundTransparency = 1.000
+		ScreenGui.titulo_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_7.BorderSizePixel = 0
+		ScreenGui.titulo_7.Position = UDim2.new(4.20700758e-07, 0, 0.138889238, 0)
+		ScreenGui.titulo_7.Size = UDim2.new(0.366544932, 0, 0.694444478, 0)
+		ScreenGui.titulo_7.Font = Enum.Font.Unknown
+		ScreenGui.titulo_7.Text = "fly"
+		ScreenGui.titulo_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_7.TextScaled = true
+		ScreenGui.titulo_7.TextSize = 14.000
+		ScreenGui.titulo_7.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_7.TextStrokeTransparency = 0.000
+		ScreenGui.titulo_7.TextWrapped = true
+	
+		ScreenGui.button_7.Name = "button"
+		ScreenGui.button_7.Parent = ScreenGui.fly
+		ScreenGui.button_7.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_7.BorderSizePixel = 0
+		ScreenGui.button_7.Position = UDim2.new(0.40788421, 0, 0.087851949, 0)
+		ScreenGui.button_7.Size = UDim2.new(0.592098296, 0, 0.784555018, 0)
+	
+		ScreenGui.fly_2.Name = "fly"
+		ScreenGui.fly_2.Parent = ScreenGui.button_7
+		ScreenGui.fly_2.BackgroundColor3 = Color3.fromRGB(0, 255, 8)
+		ScreenGui.fly_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.fly_2.BorderSizePixel = 0
+		ScreenGui.fly_2.Position = UDim2.new(0.5, 0, 0.0890000015, 0)
+		ScreenGui.fly_2.Size = UDim2.new(0.382697076, 0, 0.792560816, 0)
+		ScreenGui.fly_2.Font = Enum.Font.SourceSans
+		ScreenGui.fly_2.Text = ""
+		ScreenGui.fly_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.fly_2.TextSize = 14.000
+	
+		ScreenGui.UICorner_24.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_24.Parent = ScreenGui.fly_2
+	
+		ScreenGui.UICorner_25.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_25.Parent = ScreenGui.button_7
+	
+		ScreenGui.UICorner_26.CornerRadius = UDim.new(0.400000006, 0)
+		ScreenGui.UICorner_26.Parent = ScreenGui.fly
+	
+		ScreenGui.guardarRebirths.Name = "guardarRebirths"
+		ScreenGui.guardarRebirths.Parent = ScreenGui.farm
+		ScreenGui.guardarRebirths.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.guardarRebirths.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.guardarRebirths.BorderSizePixel = 0
+		ScreenGui.guardarRebirths.Position = UDim2.new(0.675035298, 0, 0.269554913, 0)
+		ScreenGui.guardarRebirths.Size = UDim2.new(0.293072313, 0, 0.0933074728, 0)
+	
+		ScreenGui.titulo_8.Name = "titulo"
+		ScreenGui.titulo_8.Parent = ScreenGui.guardarRebirths
+		ScreenGui.titulo_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_8.BackgroundTransparency = 1.000
+		ScreenGui.titulo_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_8.BorderSizePixel = 0
+		ScreenGui.titulo_8.Position = UDim2.new(4.20700758e-07, 0, 0.138889238, 0)
+		ScreenGui.titulo_8.Size = UDim2.new(0.366544932, 0, 0.694444478, 0)
+		ScreenGui.titulo_8.Font = Enum.Font.Unknown
+		ScreenGui.titulo_8.Text = "save Rebirths"
+		ScreenGui.titulo_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_8.TextScaled = true
+		ScreenGui.titulo_8.TextSize = 14.000
+		ScreenGui.titulo_8.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_8.TextStrokeTransparency = 0.000
+		ScreenGui.titulo_8.TextWrapped = true
+	
+		ScreenGui.button_8.Name = "button"
+		ScreenGui.button_8.Parent = ScreenGui.guardarRebirths
+		ScreenGui.button_8.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_8.BorderSizePixel = 0
+		ScreenGui.button_8.Position = UDim2.new(0.40788421, 0, 0.087851949, 0)
+		ScreenGui.button_8.Size = UDim2.new(0.592098296, 0, 0.784555018, 0)
+	
+		ScreenGui.sRebs.Name = "sRebs"
+		ScreenGui.sRebs.Parent = ScreenGui.button_8
+		ScreenGui.sRebs.BackgroundColor3 = Color3.fromRGB(0, 255, 8)
+		ScreenGui.sRebs.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.sRebs.BorderSizePixel = 0
+		ScreenGui.sRebs.Position = UDim2.new(0.5, 0, 0.0890000015, 0)
+		ScreenGui.sRebs.Size = UDim2.new(0.382697076, 0, 0.792560816, 0)
+		ScreenGui.sRebs.Font = Enum.Font.SourceSans
+		ScreenGui.sRebs.Text = ""
+		ScreenGui.sRebs.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.sRebs.TextSize = 14.000
+	
+		ScreenGui.UICorner_27.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_27.Parent = ScreenGui.sRebs
+	
+		ScreenGui.UICorner_28.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_28.Parent = ScreenGui.button_8
+	
+		ScreenGui.UICorner_29.CornerRadius = UDim.new(0.400000006, 0)
+		ScreenGui.UICorner_29.Parent = ScreenGui.guardarRebirths
+	
+		ScreenGui.statsMe.Name = "statsMe"
+		ScreenGui.statsMe.Parent = ScreenGui.farm
+		ScreenGui.statsMe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.statsMe.BorderColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.statsMe.Position = UDim2.new(0.0139901536, 0, 0.514207125, 0)
+		ScreenGui.statsMe.Size = UDim2.new(0.630340755, 0, 0.465521216, 0)
+	
+		ScreenGui.textBoss.Name = "textBoss"
+		ScreenGui.textBoss.Parent = ScreenGui.statsMe
+		ScreenGui.textBoss.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.textBoss.BorderColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.textBoss.Position = UDim2.new(0.0199331902, 0, 0.0252471585, 0)
+		ScreenGui.textBoss.Size = UDim2.new(0.415104866, 0, 0.105196491, 0)
+		ScreenGui.textBoss.Font = Enum.Font.Unknown
+		ScreenGui.textBoss.Text = "Quest >> "
+		ScreenGui.textBoss.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.textBoss.TextScaled = true
+		ScreenGui.textBoss.TextSize = 14.000
+		ScreenGui.textBoss.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.textBoss.TextStrokeTransparency = 0.000
+		ScreenGui.textBoss.TextWrapped = true
+	
+		ScreenGui.saveRebirths.Name = "saveRebirths"
+		ScreenGui.saveRebirths.Parent = ScreenGui.farm
+		ScreenGui.saveRebirths.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.saveRebirths.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.saveRebirths.BorderSizePixel = 0
+		ScreenGui.saveRebirths.Position = UDim2.new(0.673524678, 0, 0.514207125, 0)
+		ScreenGui.saveRebirths.Size = UDim2.new(0.308568001, 0, 0.465521246, 0)
+	
+		ScreenGui.ScrollingFrame.Parent = ScreenGui.saveRebirths
+		ScreenGui.ScrollingFrame.Active = true
+		ScreenGui.ScrollingFrame.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+		ScreenGui.ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 136, 255)
+		ScreenGui.ScrollingFrame.Size = UDim2.new(1.00000012, 0, 0.99999994, 0)
+		ScreenGui.ScrollingFrame.CanvasSize = UDim2.new(0, 0, 10, 0)
+	
+		ScreenGui.atackDistancia.Name = "atackDistancia"
+		ScreenGui.atackDistancia.Parent = ScreenGui.farm
+		ScreenGui.atackDistancia.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.atackDistancia.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.atackDistancia.BorderSizePixel = 0
+		ScreenGui.atackDistancia.Position = UDim2.new(0.675031781, 0, 0.387085766, 0)
+		ScreenGui.atackDistancia.Size = UDim2.new(0.293072313, 0, 0.0933074728, 0)
+	
+		ScreenGui.titulo_9.Name = "titulo"
+		ScreenGui.titulo_9.Parent = ScreenGui.atackDistancia
+		ScreenGui.titulo_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_9.BackgroundTransparency = 1.000
+		ScreenGui.titulo_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_9.BorderSizePixel = 0
+		ScreenGui.titulo_9.Position = UDim2.new(4.20700758e-07, 0, 0.138889238, 0)
+		ScreenGui.titulo_9.Size = UDim2.new(0.366544932, 0, 0.694444478, 0)
+		ScreenGui.titulo_9.Font = Enum.Font.Unknown
+		ScreenGui.titulo_9.Text = "Distancia"
+		ScreenGui.titulo_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_9.TextScaled = true
+		ScreenGui.titulo_9.TextSize = 14.000
+		ScreenGui.titulo_9.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_9.TextStrokeTransparency = 0.000
+		ScreenGui.titulo_9.TextWrapped = true
+	
+		ScreenGui.button_9.Name = "button"
+		ScreenGui.button_9.Parent = ScreenGui.atackDistancia
+		ScreenGui.button_9.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_9.BorderSizePixel = 0
+		ScreenGui.button_9.Position = UDim2.new(0.40788421, 0, 0.087851949, 0)
+		ScreenGui.button_9.Size = UDim2.new(0.592098296, 0, 0.784555018, 0)
+	
+		ScreenGui.lejos.Name = "lejos"
+		ScreenGui.lejos.Parent = ScreenGui.button_9
+		ScreenGui.lejos.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.lejos.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.lejos.BorderSizePixel = 0
+		ScreenGui.lejos.Position = UDim2.new(0.0909999982, 0, 0.0890000015, 0)
+		ScreenGui.lejos.Size = UDim2.new(0.382697076, 0, 0.792560816, 0)
+		ScreenGui.lejos.Font = Enum.Font.SourceSans
+		ScreenGui.lejos.Text = ""
+		ScreenGui.lejos.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.lejos.TextSize = 14.000
+	
+		ScreenGui.UICorner_30.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_30.Parent = ScreenGui.lejos
+	
+		ScreenGui.UICorner_31.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_31.Parent = ScreenGui.button_9
+	
+		ScreenGui.UICorner_32.CornerRadius = UDim.new(0.400000006, 0)
+		ScreenGui.UICorner_32.Parent = ScreenGui.atackDistancia
+	
+		ScreenGui.Rerbirth.Name = "Rerbirth"
+		ScreenGui.Rerbirth.Parent = ScreenGui.farm
+		ScreenGui.Rerbirth.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Rerbirth.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Rerbirth.BorderSizePixel = 0
+		ScreenGui.Rerbirth.Position = UDim2.new(0.351263762, 0, 0.0181431193, 0)
+		ScreenGui.Rerbirth.Size = UDim2.new(0.293072313, 0, 0.0933074728, 0)
+	
+		ScreenGui.titulo_10.Name = "titulo"
+		ScreenGui.titulo_10.Parent = ScreenGui.Rerbirth
+		ScreenGui.titulo_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_10.BackgroundTransparency = 1.000
+		ScreenGui.titulo_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_10.BorderSizePixel = 0
+		ScreenGui.titulo_10.Position = UDim2.new(4.20700758e-07, 0, 0.138889238, 0)
+		ScreenGui.titulo_10.Size = UDim2.new(0.366544932, 0, 0.694444478, 0)
+		ScreenGui.titulo_10.Font = Enum.Font.Unknown
+		ScreenGui.titulo_10.Text = "Rebirth"
+		ScreenGui.titulo_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_10.TextScaled = true
+		ScreenGui.titulo_10.TextSize = 14.000
+		ScreenGui.titulo_10.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_10.TextStrokeTransparency = 0.000
+		ScreenGui.titulo_10.TextWrapped = true
+	
+		ScreenGui.button_10.Name = "button"
+		ScreenGui.button_10.Parent = ScreenGui.Rerbirth
+		ScreenGui.button_10.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_10.BorderSizePixel = 0
+		ScreenGui.button_10.Position = UDim2.new(0.40788421, 0, 0.087851949, 0)
+		ScreenGui.button_10.Size = UDim2.new(0.592098296, 0, 0.784555018, 0)
+	
+		ScreenGui.reb.Name = "reb"
+		ScreenGui.reb.Parent = ScreenGui.button_10
+		ScreenGui.reb.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.reb.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.reb.BorderSizePixel = 0
+		ScreenGui.reb.Position = UDim2.new(0.0827528834, 0, 0.0802755877, 0)
+		ScreenGui.reb.Size = UDim2.new(0.382697076, 0, 0.792560816, 0)
+		ScreenGui.reb.Font = Enum.Font.SourceSans
+		ScreenGui.reb.Text = ""
+		ScreenGui.reb.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.reb.TextSize = 14.000
+	
+		ScreenGui.UICorner_33.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_33.Parent = ScreenGui.reb
+	
+		ScreenGui.UICorner_34.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_34.Parent = ScreenGui.button_10
+	
+		ScreenGui.UICorner_35.CornerRadius = UDim.new(0.400000006, 0)
+		ScreenGui.UICorner_35.Parent = ScreenGui.Rerbirth
+	
+		ScreenGui.ataquesEnergy.Name = "ataquesEnergy"
+		ScreenGui.ataquesEnergy.Parent = ScreenGui.farm
+		ScreenGui.ataquesEnergy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.ataquesEnergy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.ataquesEnergy.BorderSizePixel = 0
+		ScreenGui.ataquesEnergy.Position = UDim2.new(0.0155006759, 0, 0.387085766, 0)
+		ScreenGui.ataquesEnergy.Size = UDim2.new(0.293072313, 0, 0.0933074728, 0)
+	
+		ScreenGui.titulo_11.Name = "titulo"
+		ScreenGui.titulo_11.Parent = ScreenGui.ataquesEnergy
+		ScreenGui.titulo_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_11.BackgroundTransparency = 1.000
+		ScreenGui.titulo_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_11.BorderSizePixel = 0
+		ScreenGui.titulo_11.Position = UDim2.new(4.20700758e-07, 0, 0.138889238, 0)
+		ScreenGui.titulo_11.Size = UDim2.new(0.366544932, 0, 0.694444478, 0)
+		ScreenGui.titulo_11.Font = Enum.Font.Unknown
+		ScreenGui.titulo_11.Text = "Ataques Energy"
+		ScreenGui.titulo_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_11.TextScaled = true
+		ScreenGui.titulo_11.TextSize = 14.000
+		ScreenGui.titulo_11.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_11.TextStrokeTransparency = 0.000
+		ScreenGui.titulo_11.TextWrapped = true
+	
+		ScreenGui.button_11.Name = "button"
+		ScreenGui.button_11.Parent = ScreenGui.ataquesEnergy
+		ScreenGui.button_11.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_11.BorderSizePixel = 0
+		ScreenGui.button_11.Position = UDim2.new(0.40788421, 0, 0.087851949, 0)
+		ScreenGui.button_11.Size = UDim2.new(0.592098296, 0, 0.784555018, 0)
+	
+		ScreenGui.ataquesEnergy_2.Name = "ataquesEnergy"
+		ScreenGui.ataquesEnergy_2.Parent = ScreenGui.button_11
+		ScreenGui.ataquesEnergy_2.BackgroundColor3 = Color3.fromRGB(0, 255, 8)
+		ScreenGui.ataquesEnergy_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.ataquesEnergy_2.BorderSizePixel = 0
+		ScreenGui.ataquesEnergy_2.Position = UDim2.new(0.5, 0, 0.0890000015, 0)
+		ScreenGui.ataquesEnergy_2.Size = UDim2.new(0.382697076, 0, 0.792560816, 0)
+		ScreenGui.ataquesEnergy_2.Font = Enum.Font.SourceSans
+		ScreenGui.ataquesEnergy_2.Text = ""
+		ScreenGui.ataquesEnergy_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.ataquesEnergy_2.TextSize = 14.000
+	
+		ScreenGui.UICorner_36.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_36.Parent = ScreenGui.ataquesEnergy_2
+	
+		ScreenGui.UICorner_37.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_37.Parent = ScreenGui.button_11
+	
+		ScreenGui.UICorner_38.CornerRadius = UDim.new(0.400000006, 0)
+		ScreenGui.UICorner_38.Parent = ScreenGui.ataquesEnergy
+	
+		ScreenGui.namePlayer.Name = "namePlayer"
+		ScreenGui.namePlayer.Parent = ScreenGui.farm
+		ScreenGui.namePlayer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.namePlayer.BackgroundTransparency = 1.000
+		ScreenGui.namePlayer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.namePlayer.BorderSizePixel = 0
+		ScreenGui.namePlayer.Position = UDim2.new(0.324727625, 0, 0.387085766, 0)
+		ScreenGui.namePlayer.Size = UDim2.new(0.335944235, 0, 0.107532851, 0)
+		ScreenGui.namePlayer.Font = Enum.Font.Unknown
+		ScreenGui.namePlayer.Text = ""
+		ScreenGui.namePlayer.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.namePlayer.TextScaled = true
+		ScreenGui.namePlayer.TextSize = 14.000
+		ScreenGui.namePlayer.TextStrokeColor3 = Color3.fromRGB(253, 0, 0)
+		ScreenGui.namePlayer.TextStrokeTransparency = 0.200
+		ScreenGui.namePlayer.TextWrapped = true
+	
+		ScreenGui.requerimientos.Name = "requerimientos"
+		ScreenGui.requerimientos.Parent = ScreenGui.styles
+		ScreenGui.requerimientos.BackgroundColor3 = Color3.fromRGB(0, 13, 25)
+		ScreenGui.requerimientos.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.requerimientos.BorderSizePixel = 0
+		ScreenGui.requerimientos.Position = UDim2.new(-0.00204235525, 0, 0, 0)
+		ScreenGui.requerimientos.Size = UDim2.new(1.00204277, 0, 1.00000012, 0)
+		ScreenGui.requerimientos.Visible = false
+	
+		ScreenGui.minimoRequerimiento.Name = "minimoRequerimiento"
+		ScreenGui.minimoRequerimiento.Parent = ScreenGui.requerimientos
+		ScreenGui.minimoRequerimiento.BackgroundColor3 = Color3.fromRGB(130, 95, 95)
+		ScreenGui.minimoRequerimiento.BorderSizePixel = 0
+		ScreenGui.minimoRequerimiento.Position = UDim2.new(0.0269861948, 0, 0.0699999705, 0)
+		ScreenGui.minimoRequerimiento.Size = UDim2.new(0.455124974, 0, 0.0250000004, 0)
+	
+		ScreenGui.Slider.Name = "Slider"
+		ScreenGui.Slider.Parent = ScreenGui.minimoRequerimiento
+		ScreenGui.Slider.AnchorPoint = Vector2.new(0.5, 0.5)
+		ScreenGui.Slider.BackgroundColor3 = Color3.fromRGB(247, 247, 247)
+		ScreenGui.Slider.BorderSizePixel = 0
+		ScreenGui.Slider.Position = UDim2.new(0, 8, 0, 5)
+		ScreenGui.Slider.Size = UDim2.new(0.087410897, 0, 1.88336444, 0)
+		ScreenGui.Slider.Font = Enum.Font.SourceSans
+		ScreenGui.Slider.Text = ""
+		ScreenGui.Slider.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Slider.TextSize = 14.000
+	
+		ScreenGui.UICorner_39.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_39.Parent = ScreenGui.Slider
+	
+		ScreenGui.SliderInput.Name = "SliderInput"
+		ScreenGui.SliderInput.Parent = ScreenGui.minimoRequerimiento
+		ScreenGui.SliderInput.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.SliderInput.BackgroundTransparency = 1.000
+		ScreenGui.SliderInput.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.SliderInput.BorderSizePixel = 0
+		ScreenGui.SliderInput.Position = UDim2.new(0.0796456113, 0, -2.25201821, 0)
+		ScreenGui.SliderInput.Size = UDim2.new(0.920354247, 0, 1.74039221, 0)
+		ScreenGui.SliderInput.Font = Enum.Font.Unknown
+		ScreenGui.SliderInput.Text = "Minimo Requerimiento:  "
+		ScreenGui.SliderInput.TextColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.SliderInput.TextScaled = true
+		ScreenGui.SliderInput.TextSize = 14.000
+		ScreenGui.SliderInput.TextWrapped = true
+	
+		ScreenGui.UICorner_40.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_40.Parent = ScreenGui.minimoRequerimiento
+	
+		ScreenGui.button_12.Name = "button"
+		ScreenGui.button_12.Parent = ScreenGui.minimoRequerimiento
+		ScreenGui.button_12.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_12.BorderSizePixel = 0
+		ScreenGui.button_12.Position = UDim2.new(0.479031414, 0, 1.4112699, 0)
+		ScreenGui.button_12.Size = UDim2.new(0.301562339, 0, 2.10798192, 0)
+	
+		ScreenGui.option.Name = "option"
+		ScreenGui.option.Parent = ScreenGui.button_12
+		ScreenGui.option.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.option.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.option.BorderSizePixel = 0
+		ScreenGui.option.Position = UDim2.new(0.091000393, 0, 0.0890001208, 0)
+		ScreenGui.option.Size = UDim2.new(0.328740954, 0, 0.792560875, 0)
+		ScreenGui.option.Font = Enum.Font.SourceSans
+		ScreenGui.option.Text = ""
+		ScreenGui.option.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.option.TextSize = 14.000
+	
+		ScreenGui.UICorner_41.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_41.Parent = ScreenGui.option
+	
+		ScreenGui.UICorner_42.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_42.Parent = ScreenGui.button_12
+	
+		ScreenGui.estado.Name = "estado"
+		ScreenGui.estado.Parent = ScreenGui.minimoRequerimiento
+		ScreenGui.estado.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.estado.BackgroundTransparency = 1.000
+		ScreenGui.estado.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.estado.BorderSizePixel = 0
+		ScreenGui.estado.Position = UDim2.new(0.239200786, 0, 1.43345296, 0)
+		ScreenGui.estado.Size = UDim2.new(0.198508576, 0, 1.92036796, 0)
+		ScreenGui.estado.Font = Enum.Font.Unknown
+		ScreenGui.estado.Text = "Off"
+		ScreenGui.estado.TextColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.estado.TextScaled = true
+		ScreenGui.estado.TextSize = 14.000
+		ScreenGui.estado.TextWrapped = true
+	
+		ScreenGui.vekuBUI.Name = "vekuBUI"
+		ScreenGui.vekuBUI.Parent = ScreenGui.requerimientos
+		ScreenGui.vekuBUI.BackgroundColor3 = Color3.fromRGB(130, 95, 95)
+		ScreenGui.vekuBUI.BorderSizePixel = 0
+		ScreenGui.vekuBUI.Position = UDim2.new(0.519274354, 0, 0.0699999705, 0)
+		ScreenGui.vekuBUI.Size = UDim2.new(0.455124974, 0, 0.0250000004, 0)
+	
+		ScreenGui.Slider_2.Name = "Slider"
+		ScreenGui.Slider_2.Parent = ScreenGui.vekuBUI
+		ScreenGui.Slider_2.AnchorPoint = Vector2.new(0.5, 0.5)
+		ScreenGui.Slider_2.BackgroundColor3 = Color3.fromRGB(247, 247, 247)
+		ScreenGui.Slider_2.BorderSizePixel = 0
+		ScreenGui.Slider_2.Position = UDim2.new(0, 8, 0, 5)
+		ScreenGui.Slider_2.Size = UDim2.new(0.087410897, 0, 1.88336444, 0)
+		ScreenGui.Slider_2.Font = Enum.Font.SourceSans
+		ScreenGui.Slider_2.Text = ""
+		ScreenGui.Slider_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Slider_2.TextSize = 14.000
+	
+		ScreenGui.UICorner_43.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_43.Parent = ScreenGui.Slider_2
+	
+		ScreenGui.SliderInput_2.Name = "SliderInput"
+		ScreenGui.SliderInput_2.Parent = ScreenGui.vekuBUI
+		ScreenGui.SliderInput_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.SliderInput_2.BackgroundTransparency = 1.000
+		ScreenGui.SliderInput_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.SliderInput_2.BorderSizePixel = 0
+		ScreenGui.SliderInput_2.Position = UDim2.new(0.0796456113, 0, -2.25201821, 0)
+		ScreenGui.SliderInput_2.Size = UDim2.new(0.920354247, 0, 1.74039221, 0)
+		ScreenGui.SliderInput_2.Font = Enum.Font.Unknown
+		ScreenGui.SliderInput_2.Text = "Stats Veku BUI:"
+		ScreenGui.SliderInput_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.SliderInput_2.TextScaled = true
+		ScreenGui.SliderInput_2.TextSize = 14.000
+		ScreenGui.SliderInput_2.TextWrapped = true
+	
+		ScreenGui.UICorner_44.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_44.Parent = ScreenGui.vekuBUI
+	
+		ScreenGui.button_13.Name = "button"
+		ScreenGui.button_13.Parent = ScreenGui.vekuBUI
+		ScreenGui.button_13.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_13.BorderSizePixel = 0
+		ScreenGui.button_13.Position = UDim2.new(0.479031414, 0, 1.4112699, 0)
+		ScreenGui.button_13.Size = UDim2.new(0.301562339, 0, 2.10798192, 0)
+	
+		ScreenGui.option_2.Name = "option"
+		ScreenGui.option_2.Parent = ScreenGui.button_13
+		ScreenGui.option_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.option_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.option_2.BorderSizePixel = 0
+		ScreenGui.option_2.Position = UDim2.new(0.091000393, 0, 0.0890001208, 0)
+		ScreenGui.option_2.Size = UDim2.new(0.328740954, 0, 0.792560875, 0)
+		ScreenGui.option_2.Font = Enum.Font.SourceSans
+		ScreenGui.option_2.Text = ""
+		ScreenGui.option_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.option_2.TextSize = 14.000
+	
+		ScreenGui.UICorner_45.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_45.Parent = ScreenGui.option_2
+	
+		ScreenGui.UICorner_46.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_46.Parent = ScreenGui.button_13
+	
+		ScreenGui.estado_2.Name = "estado"
+		ScreenGui.estado_2.Parent = ScreenGui.vekuBUI
+		ScreenGui.estado_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.estado_2.BackgroundTransparency = 1.000
+		ScreenGui.estado_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.estado_2.BorderSizePixel = 0
+		ScreenGui.estado_2.Position = UDim2.new(0.239200786, 0, 1.43345296, 0)
+		ScreenGui.estado_2.Size = UDim2.new(0.198508576, 0, 1.92036796, 0)
+		ScreenGui.estado_2.Font = Enum.Font.Unknown
+		ScreenGui.estado_2.Text = "Off"
+		ScreenGui.estado_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.estado_2.TextScaled = true
+		ScreenGui.estado_2.TextSize = 14.000
+		ScreenGui.estado_2.TextWrapped = true
+	
+		ScreenGui.StatsRose.Name = "StatsRose"
+		ScreenGui.StatsRose.Parent = ScreenGui.requerimientos
+		ScreenGui.StatsRose.BackgroundColor3 = Color3.fromRGB(130, 95, 95)
+		ScreenGui.StatsRose.BorderSizePixel = 0
+		ScreenGui.StatsRose.Position = UDim2.new(0.519274354, 0, 0.246296316, 0)
+		ScreenGui.StatsRose.Size = UDim2.new(0.455124974, 0, 0.0250000004, 0)
+	
+		ScreenGui.Slider_3.Name = "Slider"
+		ScreenGui.Slider_3.Parent = ScreenGui.StatsRose
+		ScreenGui.Slider_3.AnchorPoint = Vector2.new(0.5, 0.5)
+		ScreenGui.Slider_3.BackgroundColor3 = Color3.fromRGB(247, 247, 247)
+		ScreenGui.Slider_3.BorderSizePixel = 0
+		ScreenGui.Slider_3.Position = UDim2.new(0, 8, 0, 5)
+		ScreenGui.Slider_3.Size = UDim2.new(0.087410897, 0, 1.88336444, 0)
+		ScreenGui.Slider_3.Font = Enum.Font.SourceSans
+		ScreenGui.Slider_3.Text = ""
+		ScreenGui.Slider_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Slider_3.TextSize = 14.000
+	
+		ScreenGui.UICorner_47.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_47.Parent = ScreenGui.Slider_3
+	
+		ScreenGui.SliderInput_3.Name = "SliderInput"
+		ScreenGui.SliderInput_3.Parent = ScreenGui.StatsRose
+		ScreenGui.SliderInput_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.SliderInput_3.BackgroundTransparency = 1.000
+		ScreenGui.SliderInput_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.SliderInput_3.BorderSizePixel = 0
+		ScreenGui.SliderInput_3.Position = UDim2.new(0.0796456113, 0, -2.25201821, 0)
+		ScreenGui.SliderInput_3.Size = UDim2.new(0.920354247, 0, 1.74039221, 0)
+		ScreenGui.SliderInput_3.Font = Enum.Font.Unknown
+		ScreenGui.SliderInput_3.Text = "Stats Wukong Rose:"
+		ScreenGui.SliderInput_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.SliderInput_3.TextScaled = true
+		ScreenGui.SliderInput_3.TextSize = 14.000
+		ScreenGui.SliderInput_3.TextWrapped = true
+	
+		ScreenGui.UICorner_48.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_48.Parent = ScreenGui.StatsRose
+	
+		ScreenGui.button_14.Name = "button"
+		ScreenGui.button_14.Parent = ScreenGui.StatsRose
+		ScreenGui.button_14.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_14.BorderSizePixel = 0
+		ScreenGui.button_14.Position = UDim2.new(0.479031414, 0, 1.4112699, 0)
+		ScreenGui.button_14.Size = UDim2.new(0.301562339, 0, 2.10798192, 0)
+	
+		ScreenGui.option_3.Name = "option"
+		ScreenGui.option_3.Parent = ScreenGui.button_14
+		ScreenGui.option_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.option_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.option_3.BorderSizePixel = 0
+		ScreenGui.option_3.Position = UDim2.new(0.091000393, 0, 0.0890001208, 0)
+		ScreenGui.option_3.Size = UDim2.new(0.328740954, 0, 0.792560875, 0)
+		ScreenGui.option_3.Font = Enum.Font.SourceSans
+		ScreenGui.option_3.Text = ""
+		ScreenGui.option_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.option_3.TextSize = 14.000
+	
+		ScreenGui.UICorner_49.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_49.Parent = ScreenGui.option_3
+	
+		ScreenGui.UICorner_50.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_50.Parent = ScreenGui.button_14
+	
+		ScreenGui.estado_3.Name = "estado"
+		ScreenGui.estado_3.Parent = ScreenGui.StatsRose
+		ScreenGui.estado_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.estado_3.BackgroundTransparency = 1.000
+		ScreenGui.estado_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.estado_3.BorderSizePixel = 0
+		ScreenGui.estado_3.Position = UDim2.new(0.239200786, 0, 1.43345296, 0)
+		ScreenGui.estado_3.Size = UDim2.new(0.198508576, 0, 1.92036796, 0)
+		ScreenGui.estado_3.Font = Enum.Font.Unknown
+		ScreenGui.estado_3.Text = "Off"
+		ScreenGui.estado_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.estado_3.TextScaled = true
+		ScreenGui.estado_3.TextSize = 14.000
+		ScreenGui.estado_3.TextWrapped = true
+	
+		ScreenGui.StatstpBills.Name = "StatstpBills"
+		ScreenGui.StatstpBills.Parent = ScreenGui.requerimientos
+		ScreenGui.StatstpBills.BackgroundColor3 = Color3.fromRGB(130, 95, 95)
+		ScreenGui.StatstpBills.BorderSizePixel = 0
+		ScreenGui.StatstpBills.Position = UDim2.new(0.0251961648, 0, 0.246296316, 0)
+		ScreenGui.StatstpBills.Size = UDim2.new(0.455124974, 0, 0.0250000004, 0)
+	
+		ScreenGui.Slider_4.Name = "Slider"
+		ScreenGui.Slider_4.Parent = ScreenGui.StatstpBills
+		ScreenGui.Slider_4.AnchorPoint = Vector2.new(0.5, 0.5)
+		ScreenGui.Slider_4.BackgroundColor3 = Color3.fromRGB(247, 247, 247)
+		ScreenGui.Slider_4.BorderSizePixel = 0
+		ScreenGui.Slider_4.Position = UDim2.new(0, 8, 0, 5)
+		ScreenGui.Slider_4.Size = UDim2.new(0.087410897, 0, 1.88336444, 0)
+		ScreenGui.Slider_4.Font = Enum.Font.SourceSans
+		ScreenGui.Slider_4.Text = ""
+		ScreenGui.Slider_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Slider_4.TextSize = 14.000
+	
+		ScreenGui.UICorner_51.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_51.Parent = ScreenGui.Slider_4
+	
+		ScreenGui.SliderInput_4.Name = "SliderInput"
+		ScreenGui.SliderInput_4.Parent = ScreenGui.StatstpBills
+		ScreenGui.SliderInput_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.SliderInput_4.BackgroundTransparency = 1.000
+		ScreenGui.SliderInput_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.SliderInput_4.BorderSizePixel = 0
+		ScreenGui.SliderInput_4.Position = UDim2.new(0.0796456113, 0, -2.25201821, 0)
+		ScreenGui.SliderInput_4.Size = UDim2.new(0.920354247, 0, 1.74039221, 0)
+		ScreenGui.SliderInput_4.Font = Enum.Font.Unknown
+		ScreenGui.SliderInput_4.Text = "Stats TP Bills Planet:"
+		ScreenGui.SliderInput_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.SliderInput_4.TextScaled = true
+		ScreenGui.SliderInput_4.TextSize = 14.000
+		ScreenGui.SliderInput_4.TextWrapped = true
+	
+		ScreenGui.UICorner_52.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_52.Parent = ScreenGui.StatstpBills
+	
+		ScreenGui.button_15.Name = "button"
+		ScreenGui.button_15.Parent = ScreenGui.StatstpBills
+		ScreenGui.button_15.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_15.BorderSizePixel = 0
+		ScreenGui.button_15.Position = UDim2.new(0.479031414, 0, 1.4112699, 0)
+		ScreenGui.button_15.Size = UDim2.new(0.301562339, 0, 2.10798192, 0)
+	
+		ScreenGui.option_4.Name = "option"
+		ScreenGui.option_4.Parent = ScreenGui.button_15
+		ScreenGui.option_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.option_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.option_4.BorderSizePixel = 0
+		ScreenGui.option_4.Position = UDim2.new(0.091000393, 0, 0.0890001208, 0)
+		ScreenGui.option_4.Size = UDim2.new(0.328740954, 0, 0.792560875, 0)
+		ScreenGui.option_4.Font = Enum.Font.SourceSans
+		ScreenGui.option_4.Text = ""
+		ScreenGui.option_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.option_4.TextSize = 14.000
+	
+		ScreenGui.UICorner_53.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_53.Parent = ScreenGui.option_4
+	
+		ScreenGui.UICorner_54.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_54.Parent = ScreenGui.button_15
+	
+		ScreenGui.estado_4.Name = "estado"
+		ScreenGui.estado_4.Parent = ScreenGui.StatstpBills
+		ScreenGui.estado_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.estado_4.BackgroundTransparency = 1.000
+		ScreenGui.estado_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.estado_4.BorderSizePixel = 0
+		ScreenGui.estado_4.Position = UDim2.new(0.239200786, 0, 1.43345296, 0)
+		ScreenGui.estado_4.Size = UDim2.new(0.198508576, 0, 1.92036796, 0)
+		ScreenGui.estado_4.Font = Enum.Font.Unknown
+		ScreenGui.estado_4.Text = "Off"
+		ScreenGui.estado_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.estado_4.TextScaled = true
+		ScreenGui.estado_4.TextSize = 14.000
+		ScreenGui.estado_4.TextWrapped = true
+	
+		ScreenGui.fps.Name = "fps"
+		ScreenGui.fps.Parent = ScreenGui.requerimientos
+		ScreenGui.fps.BackgroundColor3 = Color3.fromRGB(130, 95, 95)
+		ScreenGui.fps.BorderSizePixel = 0
+		ScreenGui.fps.Position = UDim2.new(0.0251961648, 0, 0.424551487, 0)
+		ScreenGui.fps.Size = UDim2.new(0.455124974, 0, 0.0250000004, 0)
+	
+		ScreenGui.Slider_5.Name = "Slider"
+		ScreenGui.Slider_5.Parent = ScreenGui.fps
+		ScreenGui.Slider_5.AnchorPoint = Vector2.new(0.5, 0.5)
+		ScreenGui.Slider_5.BackgroundColor3 = Color3.fromRGB(247, 247, 247)
+		ScreenGui.Slider_5.BorderSizePixel = 0
+		ScreenGui.Slider_5.Position = UDim2.new(0, 8, 0, 5)
+		ScreenGui.Slider_5.Size = UDim2.new(0.087410897, 0, 1.88336444, 0)
+		ScreenGui.Slider_5.Font = Enum.Font.SourceSans
+		ScreenGui.Slider_5.Text = ""
+		ScreenGui.Slider_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Slider_5.TextSize = 14.000
+	
+		ScreenGui.UICorner_55.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_55.Parent = ScreenGui.Slider_5
+	
+		ScreenGui.SliderInput_5.Name = "SliderInput"
+		ScreenGui.SliderInput_5.Parent = ScreenGui.fps
+		ScreenGui.SliderInput_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.SliderInput_5.BackgroundTransparency = 1.000
+		ScreenGui.SliderInput_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.SliderInput_5.BorderSizePixel = 0
+		ScreenGui.SliderInput_5.Position = UDim2.new(0.0796456113, 0, -2.25201821, 0)
+		ScreenGui.SliderInput_5.Size = UDim2.new(0.920354247, 0, 1.74039221, 0)
+		ScreenGui.SliderInput_5.Font = Enum.Font.Unknown
+		ScreenGui.SliderInput_5.Text = "FPS:"
+		ScreenGui.SliderInput_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.SliderInput_5.TextScaled = true
+		ScreenGui.SliderInput_5.TextSize = 14.000
+		ScreenGui.SliderInput_5.TextWrapped = true
+	
+		ScreenGui.UICorner_56.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_56.Parent = ScreenGui.fps
+	
+		ScreenGui.button_16.Name = "button"
+		ScreenGui.button_16.Parent = ScreenGui.fps
+		ScreenGui.button_16.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_16.BorderSizePixel = 0
+		ScreenGui.button_16.Position = UDim2.new(0.479031414, 0, 1.4112699, 0)
+		ScreenGui.button_16.Size = UDim2.new(0.301562339, 0, 2.10798192, 0)
+	
+		ScreenGui.option_5.Name = "option"
+		ScreenGui.option_5.Parent = ScreenGui.button_16
+		ScreenGui.option_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.option_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.option_5.BorderSizePixel = 0
+		ScreenGui.option_5.Position = UDim2.new(0.091000393, 0, 0.0890001208, 0)
+		ScreenGui.option_5.Size = UDim2.new(0.328740954, 0, 0.792560875, 0)
+		ScreenGui.option_5.Font = Enum.Font.SourceSans
+		ScreenGui.option_5.Text = ""
+		ScreenGui.option_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.option_5.TextSize = 14.000
+	
+		ScreenGui.UICorner_57.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_57.Parent = ScreenGui.option_5
+	
+		ScreenGui.UICorner_58.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_58.Parent = ScreenGui.button_16
+	
+		ScreenGui.estado_5.Name = "estado"
+		ScreenGui.estado_5.Parent = ScreenGui.fps
+		ScreenGui.estado_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.estado_5.BackgroundTransparency = 1.000
+		ScreenGui.estado_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.estado_5.BorderSizePixel = 0
+		ScreenGui.estado_5.Position = UDim2.new(0.239200786, 0, 1.43345296, 0)
+		ScreenGui.estado_5.Size = UDim2.new(0.198508576, 0, 1.92036796, 0)
+		ScreenGui.estado_5.Font = Enum.Font.Unknown
+		ScreenGui.estado_5.Text = "Off"
+		ScreenGui.estado_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.estado_5.TextScaled = true
+		ScreenGui.estado_5.TextSize = 14.000
+		ScreenGui.estado_5.TextWrapped = true
+	
+		ScreenGui.opciones.Name = "opciones"
+		ScreenGui.opciones.Parent = ScreenGui.styles
+		ScreenGui.opciones.BackgroundColor3 = Color3.fromRGB(28, 0, 36)
+		ScreenGui.opciones.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.opciones.BorderSizePixel = 0
+		ScreenGui.opciones.Position = UDim2.new(-5.47422871e-08, 0, 0, 0)
+		ScreenGui.opciones.Size = UDim2.new(0.999999881, 0, 1, 0)
+		ScreenGui.opciones.Visible = false
+	
+		ScreenGui.opcion1.Name = "opcion1"
+		ScreenGui.opcion1.Parent = ScreenGui.opciones
+		ScreenGui.opcion1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.opcion1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.opcion1.BorderSizePixel = 0
+		ScreenGui.opcion1.Position = UDim2.new(0.00179378362, 0, 0.0195884816, 0)
+		ScreenGui.opcion1.Size = UDim2.new(1, 0, 0.411358118, 0)
+	
+		ScreenGui.fasesActive.Name = "fasesActive"
+		ScreenGui.fasesActive.Parent = ScreenGui.opcion1
+		ScreenGui.fasesActive.Active = true
+		ScreenGui.fasesActive.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.fasesActive.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.fasesActive.BorderSizePixel = 0
+		ScreenGui.fasesActive.Position = UDim2.new(0.035875909, 0, 0.33957693, 0)
+		ScreenGui.fasesActive.Size = UDim2.new(0.400007397, 0, 0.620364487, 0)
+	
+		ScreenGui.fasesDesactivadas.Name = "fasesDesactivadas"
+		ScreenGui.fasesDesactivadas.Parent = ScreenGui.opcion1
+		ScreenGui.fasesDesactivadas.Active = true
+		ScreenGui.fasesDesactivadas.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.fasesDesactivadas.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.fasesDesactivadas.BorderSizePixel = 0
+		ScreenGui.fasesDesactivadas.Position = UDim2.new(0.548901379, 0, 0.33957693, 0)
+		ScreenGui.fasesDesactivadas.Size = UDim2.new(0.400007397, 0, 0.620364487, 0)
+	
+		ScreenGui.titulo1.Name = "titulo1"
+		ScreenGui.titulo1.Parent = ScreenGui.opcion1
+		ScreenGui.titulo1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo1.BackgroundTransparency = 1.000
+		ScreenGui.titulo1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo1.BorderSizePixel = 0
+		ScreenGui.titulo1.Position = UDim2.new(0.378490835, 0, 0.120486796, 0)
+		ScreenGui.titulo1.Size = UDim2.new(0.244468346, 0, 0.100562006, 0)
+		ScreenGui.titulo1.Font = Enum.Font.Unknown
+		ScreenGui.titulo1.Text = "Transformaciones"
+		ScreenGui.titulo1.TextColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo1.TextScaled = true
+		ScreenGui.titulo1.TextSize = 14.000
+		ScreenGui.titulo1.TextWrapped = true
+	
+		ScreenGui.DesactivadasForms.Name = "DesactivadasForms"
+		ScreenGui.DesactivadasForms.Parent = ScreenGui.opcion1
+		ScreenGui.DesactivadasForms.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.DesactivadasForms.BackgroundTransparency = 1.000
+		ScreenGui.DesactivadasForms.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.DesactivadasForms.BorderSizePixel = 0
+		ScreenGui.DesactivadasForms.Position = UDim2.new(0.699580193, 0, 0.086201258, 0)
+		ScreenGui.DesactivadasForms.Size = UDim2.new(0.192448273, 0, 0.157704756, 0)
+		ScreenGui.DesactivadasForms.Font = Enum.Font.Unknown
+		ScreenGui.DesactivadasForms.Text = "Desactivadas"
+		ScreenGui.DesactivadasForms.TextColor3 = Color3.fromRGB(255, 0, 4)
+		ScreenGui.DesactivadasForms.TextScaled = true
+		ScreenGui.DesactivadasForms.TextSize = 14.000
+		ScreenGui.DesactivadasForms.TextWrapped = true
+	
+		ScreenGui.ActivadasForms.Name = "ActivadasForms"
+		ScreenGui.ActivadasForms.Parent = ScreenGui.opcion1
+		ScreenGui.ActivadasForms.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.ActivadasForms.BackgroundTransparency = 1.000
+		ScreenGui.ActivadasForms.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.ActivadasForms.BorderSizePixel = 0
+		ScreenGui.ActivadasForms.Position = UDim2.new(0.107627727, 0, 0.091915369, 0)
+		ScreenGui.ActivadasForms.Size = UDim2.new(0.192448273, 0, 0.157704845, 0)
+		ScreenGui.ActivadasForms.Font = Enum.Font.Unknown
+		ScreenGui.ActivadasForms.Text = "Activadas"
+		ScreenGui.ActivadasForms.TextColor3 = Color3.fromRGB(21, 0, 255)
+		ScreenGui.ActivadasForms.TextScaled = true
+		ScreenGui.ActivadasForms.TextSize = 14.000
+		ScreenGui.ActivadasForms.TextWrapped = true
+	
+		ScreenGui.opcion2.Name = "opcion2"
+		ScreenGui.opcion2.Parent = ScreenGui.opciones
+		ScreenGui.opcion2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.opcion2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.opcion2.BorderSizePixel = 0
+		ScreenGui.opcion2.Position = UDim2.new(0.00179378362, 0, 0.503423989, 0)
+		ScreenGui.opcion2.Size = UDim2.new(1, 0, 0.413316935, 0)
+	
+		ScreenGui.ataquesDesactivados.Name = "ataquesDesactivados"
+		ScreenGui.ataquesDesactivados.Parent = ScreenGui.opcion2
+		ScreenGui.ataquesDesactivados.Active = true
+		ScreenGui.ataquesDesactivados.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.ataquesDesactivados.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.ataquesDesactivados.BorderSizePixel = 0
+		ScreenGui.ataquesDesactivados.Position = UDim2.new(0.035875909, 0, 0.33957693, 0)
+		ScreenGui.ataquesDesactivados.Size = UDim2.new(0.400007397, 0, 0.620364487, 0)
+	
+		ScreenGui.ataquesActivados.Name = "ataquesActivados"
+		ScreenGui.ataquesActivados.Parent = ScreenGui.opcion2
+		ScreenGui.ataquesActivados.Active = true
+		ScreenGui.ataquesActivados.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.ataquesActivados.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.ataquesActivados.BorderSizePixel = 0
+		ScreenGui.ataquesActivados.Position = UDim2.new(0.548901379, 0, 0.33957693, 0)
+		ScreenGui.ataquesActivados.Size = UDim2.new(0.400007397, 0, 0.620364487, 0)
+	
+		ScreenGui.titulo1_2.Name = "titulo1"
+		ScreenGui.titulo1_2.Parent = ScreenGui.opcion2
+		ScreenGui.titulo1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo1_2.BackgroundTransparency = 1.000
+		ScreenGui.titulo1_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo1_2.BorderSizePixel = 0
+		ScreenGui.titulo1_2.Position = UDim2.new(0.378490835, 0, 0.120486796, 0)
+		ScreenGui.titulo1_2.Size = UDim2.new(0.244468346, 0, 0.100562006, 0)
+		ScreenGui.titulo1_2.Font = Enum.Font.Unknown
+		ScreenGui.titulo1_2.Text = "Ataques"
+		ScreenGui.titulo1_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo1_2.TextScaled = true
+		ScreenGui.titulo1_2.TextSize = 14.000
+		ScreenGui.titulo1_2.TextWrapped = true
+	
+		ScreenGui.activados.Name = "activados"
+		ScreenGui.activados.Parent = ScreenGui.opcion2
+		ScreenGui.activados.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.activados.BackgroundTransparency = 1.000
+		ScreenGui.activados.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.activados.BorderSizePixel = 0
+		ScreenGui.activados.Position = UDim2.new(0.699580193, 0, 0.086201258, 0)
+		ScreenGui.activados.Size = UDim2.new(0.192448273, 0, 0.157704756, 0)
+		ScreenGui.activados.Font = Enum.Font.Unknown
+		ScreenGui.activados.Text = "Activados"
+		ScreenGui.activados.TextColor3 = Color3.fromRGB(255, 0, 4)
+		ScreenGui.activados.TextScaled = true
+		ScreenGui.activados.TextSize = 14.000
+		ScreenGui.activados.TextWrapped = true
+	
+		ScreenGui.desactivados.Name = "desactivados"
+		ScreenGui.desactivados.Parent = ScreenGui.opcion2
+		ScreenGui.desactivados.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.desactivados.BackgroundTransparency = 1.000
+		ScreenGui.desactivados.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.desactivados.BorderSizePixel = 0
+		ScreenGui.desactivados.Position = UDim2.new(0.107627727, 0, 0.091915369, 0)
+		ScreenGui.desactivados.Size = UDim2.new(0.192448273, 0, 0.157704845, 0)
+		ScreenGui.desactivados.Font = Enum.Font.Unknown
+		ScreenGui.desactivados.Text = "Desactivados"
+		ScreenGui.desactivados.TextColor3 = Color3.fromRGB(21, 0, 255)
+		ScreenGui.desactivados.TextScaled = true
+		ScreenGui.desactivados.TextSize = 14.000
+		ScreenGui.desactivados.TextWrapped = true
+	
+		ScreenGui.vip.Name = "vip"
+		ScreenGui.vip.Parent = ScreenGui.styles
+		ScreenGui.vip.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+		ScreenGui.vip.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.vip.BorderSizePixel = 0
+		ScreenGui.vip.Position = UDim2.new(-5.47422871e-08, 0, 0, 0)
+		ScreenGui.vip.Size = UDim2.new(1.00000012, 0, 1, 0)
+		ScreenGui.vip.Visible = false
+	
+		ScreenGui.fuseTierra.Name = "fuseTierra"
+		ScreenGui.fuseTierra.Parent = ScreenGui.vip
+		ScreenGui.fuseTierra.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.fuseTierra.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.fuseTierra.BorderSizePixel = 0
+		ScreenGui.fuseTierra.Position = UDim2.new(0.656209052, 0, 0.153303668, 0)
+		ScreenGui.fuseTierra.Size = UDim2.new(0.293072313, 0, 0.0933074728, 0)
+	
+		ScreenGui.titulo_12.Name = "titulo"
+		ScreenGui.titulo_12.Parent = ScreenGui.fuseTierra
+		ScreenGui.titulo_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_12.BackgroundTransparency = 1.000
+		ScreenGui.titulo_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_12.BorderSizePixel = 0
+		ScreenGui.titulo_12.Position = UDim2.new(4.20700758e-07, 0, 0.138889238, 0)
+		ScreenGui.titulo_12.Size = UDim2.new(0.366544932, 0, 0.694444478, 0)
+		ScreenGui.titulo_12.Font = Enum.Font.Unknown
+		ScreenGui.titulo_12.Text = "Earth"
+		ScreenGui.titulo_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_12.TextScaled = true
+		ScreenGui.titulo_12.TextSize = 14.000
+		ScreenGui.titulo_12.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_12.TextStrokeTransparency = 0.000
+		ScreenGui.titulo_12.TextWrapped = true
+	
+		ScreenGui.button_17.Name = "button"
+		ScreenGui.button_17.Parent = ScreenGui.fuseTierra
+		ScreenGui.button_17.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_17.BorderSizePixel = 0
+		ScreenGui.button_17.Position = UDim2.new(0.40788421, 0, 0.087851949, 0)
+		ScreenGui.button_17.Size = UDim2.new(0.592098296, 0, 0.784555018, 0)
+	
+		ScreenGui.autoFuse.Name = "autoFuse"
+		ScreenGui.autoFuse.Parent = ScreenGui.button_17
+		ScreenGui.autoFuse.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.autoFuse.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.autoFuse.BorderSizePixel = 0
+		ScreenGui.autoFuse.Position = UDim2.new(0.0909999982, 0, 0.0890000015, 0)
+		ScreenGui.autoFuse.Size = UDim2.new(0.382697076, 0, 0.792560816, 0)
+		ScreenGui.autoFuse.Font = Enum.Font.SourceSans
+		ScreenGui.autoFuse.Text = ""
+		ScreenGui.autoFuse.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.autoFuse.TextSize = 14.000
+	
+		ScreenGui.UICorner_59.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_59.Parent = ScreenGui.autoFuse
+	
+		ScreenGui.UICorner_60.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_60.Parent = ScreenGui.button_17
+	
+		ScreenGui.UICorner_61.CornerRadius = UDim.new(0.400000006, 0)
+		ScreenGui.UICorner_61.Parent = ScreenGui.fuseTierra
+	
+		ScreenGui.playerFuse.Name = "playerFuse"
+		ScreenGui.playerFuse.Parent = ScreenGui.vip
+		ScreenGui.playerFuse.BackgroundColor3 = Color3.fromRGB(36, 16, 16)
+		ScreenGui.playerFuse.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.playerFuse.BorderSizePixel = 0
+		ScreenGui.playerFuse.Position = UDim2.new(0.0179380048, 0, 0.0137119368, 0)
+		ScreenGui.playerFuse.Size = UDim2.new(0.603439391, 0, 0.515177071, 0)
+	
+		ScreenGui.Automatico.Name = "Automatico"
+		ScreenGui.Automatico.Parent = ScreenGui.playerFuse
+		ScreenGui.Automatico.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Automatico.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Automatico.BorderSizePixel = 0
+		ScreenGui.Automatico.Position = UDim2.new(0.0889179409, 0, 0.0521327034, 0)
+		ScreenGui.Automatico.Size = UDim2.new(0.349583954, 0, 0.113744088, 0)
+		ScreenGui.Automatico.Font = Enum.Font.Unknown
+		ScreenGui.Automatico.Text = "Player Partida"
+		ScreenGui.Automatico.TextColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.Automatico.TextScaled = true
+		ScreenGui.Automatico.TextSize = 14.000
+		ScreenGui.Automatico.TextWrapped = true
+	
+		ScreenGui.UICorner_62.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_62.Parent = ScreenGui.Automatico
+	
+		ScreenGui.Manual.Name = "Manual"
+		ScreenGui.Manual.Parent = ScreenGui.playerFuse
+		ScreenGui.Manual.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Manual.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Manual.BorderSizePixel = 0
+		ScreenGui.Manual.Position = UDim2.new(0.560868204, 0, 0.0521327034, 0)
+		ScreenGui.Manual.Size = UDim2.new(0.351557165, 0, 0.113744088, 0)
+		ScreenGui.Manual.Font = Enum.Font.Unknown
+		ScreenGui.Manual.Text = "Player Manual"
+		ScreenGui.Manual.TextColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.Manual.TextScaled = true
+		ScreenGui.Manual.TextSize = 14.000
+		ScreenGui.Manual.TextWrapped = true
+	
+		ScreenGui.UICorner_63.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_63.Parent = ScreenGui.Manual
+	
+		ScreenGui.manual.Name = "manual"
+		ScreenGui.manual.Parent = ScreenGui.playerFuse
+		ScreenGui.manual.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.manual.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.manual.BorderSizePixel = 0
+		ScreenGui.manual.Position = UDim2.new(0.0376191139, 0, 0.213270158, 0)
+		ScreenGui.manual.Size = UDim2.new(0.898745775, 0, 0.786729991, 0)
+		ScreenGui.manual.Visible = false
+	
+		ScreenGui.titulo_13.Name = "titulo"
+		ScreenGui.titulo_13.Parent = ScreenGui.manual
+		ScreenGui.titulo_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_13.BorderSizePixel = 0
+		ScreenGui.titulo_13.Position = UDim2.new(0.000175036868, 0, 0, 0)
+		ScreenGui.titulo_13.Size = UDim2.new(0.999824941, 0, 0.181250006, 0)
+		ScreenGui.titulo_13.Font = Enum.Font.Unknown
+		ScreenGui.titulo_13.Text = "Player Name"
+		ScreenGui.titulo_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_13.TextScaled = true
+		ScreenGui.titulo_13.TextSize = 14.000
+		ScreenGui.titulo_13.TextWrapped = true
+	
+		ScreenGui.name.Name = "name"
+		ScreenGui.name.Parent = ScreenGui.manual
+		ScreenGui.name.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.name.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.name.BorderSizePixel = 0
+		ScreenGui.name.Position = UDim2.new(0.0570783578, 0, 0.34939757, 0)
+		ScreenGui.name.Size = UDim2.new(0.916285217, 0, 0.170253873, 0)
+		ScreenGui.name.Font = Enum.Font.Unknown
+		ScreenGui.name.Text = ""
+		ScreenGui.name.TextColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.name.TextScaled = true
+		ScreenGui.name.TextSize = 14.000
+		ScreenGui.name.TextWrapped = true
+	
+		ScreenGui.UICorner_64.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_64.Parent = ScreenGui.name
+	
+		ScreenGui.confirmar.Name = "confirmar"
+		ScreenGui.confirmar.Parent = ScreenGui.manual
+		ScreenGui.confirmar.BackgroundColor3 = Color3.fromRGB(0, 57, 9)
+		ScreenGui.confirmar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.confirmar.BorderSizePixel = 0
+		ScreenGui.confirmar.Position = UDim2.new(0.17504029, 0, 0.626505971, 0)
+		ScreenGui.confirmar.Size = UDim2.new(0.646888077, 0, 0.18674697, 0)
+		ScreenGui.confirmar.Font = Enum.Font.Unknown
+		ScreenGui.confirmar.Text = "Save Name"
+		ScreenGui.confirmar.TextColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.confirmar.TextScaled = true
+		ScreenGui.confirmar.TextSize = 14.000
+		ScreenGui.confirmar.TextWrapped = true
+	
+		ScreenGui.UICorner_65.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_65.Parent = ScreenGui.confirmar
+	
+		ScreenGui.TextLabel.Parent = ScreenGui.manual
+		ScreenGui.TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.TextLabel.BackgroundTransparency = 1.000
+		ScreenGui.TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.TextLabel.BorderSizePixel = 0
+		ScreenGui.TextLabel.Position = UDim2.new(0.133182839, 0, 0.189999998, 0)
+		ScreenGui.TextLabel.Size = UDim2.new(0.761044741, 0, 0.119954832, 0)
+		ScreenGui.TextLabel.Font = Enum.Font.Unknown
+		ScreenGui.TextLabel.Text = "..."
+		ScreenGui.TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.TextLabel.TextScaled = true
+		ScreenGui.TextLabel.TextSize = 14.000
+		ScreenGui.TextLabel.TextStrokeTransparency = 0.000
+		ScreenGui.TextLabel.TextWrapped = true
+	
+		ScreenGui.automatico.Name = "automatico"
+		ScreenGui.automatico.Parent = ScreenGui.playerFuse
+		ScreenGui.automatico.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.automatico.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.automatico.BorderSizePixel = 0
+		ScreenGui.automatico.Position = UDim2.new(0, 0, 0.208530813, 0)
+		ScreenGui.automatico.Size = UDim2.new(1, 0, 0.791469276, 0)
+	
+		ScreenGui.playerList.Name = "playerList"
+		ScreenGui.playerList.Parent = ScreenGui.automatico
+		ScreenGui.playerList.Active = true
+		ScreenGui.playerList.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+		ScreenGui.playerList.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.playerList.BorderSizePixel = 0
+		ScreenGui.playerList.Position = UDim2.new(-0.00341992872, 0, 0, 0)
+		ScreenGui.playerList.Size = UDim2.new(0.478862464, 0, 1, 0)
+	
+		ScreenGui.titulo_14.Name = "titulo"
+		ScreenGui.titulo_14.Parent = ScreenGui.automatico
+		ScreenGui.titulo_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_14.BackgroundTransparency = 1.000
+		ScreenGui.titulo_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_14.BorderSizePixel = 0
+		ScreenGui.titulo_14.Position = UDim2.new(0.509569287, 0, 0.0479041934, 0)
+		ScreenGui.titulo_14.Size = UDim2.new(0.464414805, 0, 0.149700597, 0)
+		ScreenGui.titulo_14.Font = Enum.Font.Unknown
+		ScreenGui.titulo_14.Text = "<<< Player List"
+		ScreenGui.titulo_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_14.TextScaled = true
+		ScreenGui.titulo_14.TextSize = 14.000
+		ScreenGui.titulo_14.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_14.TextStrokeTransparency = 0.000
+		ScreenGui.titulo_14.TextWrapped = true
+	
+		ScreenGui.playerName.Name = "playerName"
+		ScreenGui.playerName.Parent = ScreenGui.automatico
+		ScreenGui.playerName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.playerName.BackgroundTransparency = 1.000
+		ScreenGui.playerName.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.playerName.BorderSizePixel = 0
+		ScreenGui.playerName.Position = UDim2.new(0.509569287, 0, 0.473053902, 0)
+		ScreenGui.playerName.Size = UDim2.new(0.464414805, 0, 0.119760476, 0)
+		ScreenGui.playerName.Font = Enum.Font.Unknown
+		ScreenGui.playerName.Text = "..."
+		ScreenGui.playerName.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.playerName.TextScaled = true
+		ScreenGui.playerName.TextSize = 14.000
+		ScreenGui.playerName.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
+		ScreenGui.playerName.TextStrokeTransparency = 0.000
+		ScreenGui.playerName.TextWrapped = true
+	
+		ScreenGui.a.Name = "a"
+		ScreenGui.a.Parent = ScreenGui.automatico
+		ScreenGui.a.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.a.BackgroundTransparency = 1.000
+		ScreenGui.a.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.a.BorderSizePixel = 0
+		ScreenGui.a.Position = UDim2.new(0.509569287, 0, 0.269461066, 0)
+		ScreenGui.a.Size = UDim2.new(0.464414805, 0, 0.119760476, 0)
+		ScreenGui.a.Font = Enum.Font.Unknown
+		ScreenGui.a.Text = "------------------------"
+		ScreenGui.a.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.a.TextScaled = true
+		ScreenGui.a.TextSize = 14.000
+		ScreenGui.a.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
+		ScreenGui.a.TextStrokeTransparency = 0.000
+		ScreenGui.a.TextWrapped = true
+	
+		ScreenGui.b.Name = "b"
+		ScreenGui.b.Parent = ScreenGui.automatico
+		ScreenGui.b.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.b.BackgroundTransparency = 1.000
+		ScreenGui.b.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.b.BorderSizePixel = 0
+		ScreenGui.b.Position = UDim2.new(0.509569287, 0, 0.694610775, 0)
+		ScreenGui.b.Size = UDim2.new(0.464414805, 0, 0.119760476, 0)
+		ScreenGui.b.Font = Enum.Font.Unknown
+		ScreenGui.b.Text = "------------------------"
+		ScreenGui.b.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.b.TextScaled = true
+		ScreenGui.b.TextSize = 14.000
+		ScreenGui.b.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
+		ScreenGui.b.TextStrokeTransparency = 0.000
+		ScreenGui.b.TextWrapped = true
+	
+		ScreenGui.fuseBills.Name = "fuseBills"
+		ScreenGui.fuseBills.Parent = ScreenGui.vip
+		ScreenGui.fuseBills.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.fuseBills.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.fuseBills.BorderSizePixel = 0
+		ScreenGui.fuseBills.Position = UDim2.new(0.65441525, 0, 0.0377316177, 0)
+		ScreenGui.fuseBills.Size = UDim2.new(0.293072313, 0, 0.0933074728, 0)
+	
+		ScreenGui.titulo_15.Name = "titulo"
+		ScreenGui.titulo_15.Parent = ScreenGui.fuseBills
+		ScreenGui.titulo_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_15.BackgroundTransparency = 1.000
+		ScreenGui.titulo_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_15.BorderSizePixel = 0
+		ScreenGui.titulo_15.Position = UDim2.new(4.20700758e-07, 0, 0.138889238, 0)
+		ScreenGui.titulo_15.Size = UDim2.new(0.366544932, 0, 0.694444478, 0)
+		ScreenGui.titulo_15.Font = Enum.Font.Unknown
+		ScreenGui.titulo_15.Text = "BillsPlanet"
+		ScreenGui.titulo_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_15.TextScaled = true
+		ScreenGui.titulo_15.TextSize = 14.000
+		ScreenGui.titulo_15.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_15.TextStrokeTransparency = 0.000
+		ScreenGui.titulo_15.TextWrapped = true
+	
+		ScreenGui.button_18.Name = "button"
+		ScreenGui.button_18.Parent = ScreenGui.fuseBills
+		ScreenGui.button_18.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_18.BorderSizePixel = 0
+		ScreenGui.button_18.Position = UDim2.new(0.40788421, 0, 0.087851949, 0)
+		ScreenGui.button_18.Size = UDim2.new(0.592098296, 0, 0.784555018, 0)
+	
+		ScreenGui.autoFuse_2.Name = "autoFuse"
+		ScreenGui.autoFuse_2.Parent = ScreenGui.button_18
+		ScreenGui.autoFuse_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.autoFuse_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.autoFuse_2.BorderSizePixel = 0
+		ScreenGui.autoFuse_2.Position = UDim2.new(0.0909999982, 0, 0.0890000015, 0)
+		ScreenGui.autoFuse_2.Size = UDim2.new(0.382697076, 0, 0.792560816, 0)
+		ScreenGui.autoFuse_2.Font = Enum.Font.SourceSans
+		ScreenGui.autoFuse_2.Text = ""
+		ScreenGui.autoFuse_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.autoFuse_2.TextSize = 14.000
+	
+		ScreenGui.UICorner_66.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_66.Parent = ScreenGui.autoFuse_2
+	
+		ScreenGui.UICorner_67.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_67.Parent = ScreenGui.button_18
+	
+		ScreenGui.UICorner_68.CornerRadius = UDim.new(0.400000006, 0)
+		ScreenGui.UICorner_68.Parent = ScreenGui.fuseBills
+	
+		ScreenGui.autoFusion.Name = "autoFusion"
+		ScreenGui.autoFusion.Parent = ScreenGui.vip
+		ScreenGui.autoFusion.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.autoFusion.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.autoFusion.BorderSizePixel = 0
+		ScreenGui.autoFusion.Position = UDim2.new(0.656209052, 0, 0.288464189, 0)
+		ScreenGui.autoFusion.Size = UDim2.new(0.293072313, 0, 0.0933074728, 0)
+	
+		ScreenGui.titulo_16.Name = "titulo"
+		ScreenGui.titulo_16.Parent = ScreenGui.autoFusion
+		ScreenGui.titulo_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_16.BackgroundTransparency = 1.000
+		ScreenGui.titulo_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_16.BorderSizePixel = 0
+		ScreenGui.titulo_16.Position = UDim2.new(4.20700758e-07, 0, 0.138889238, 0)
+		ScreenGui.titulo_16.Size = UDim2.new(0.366544932, 0, 0.694444478, 0)
+		ScreenGui.titulo_16.Font = Enum.Font.Unknown
+		ScreenGui.titulo_16.Text = "AutoFuse"
+		ScreenGui.titulo_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_16.TextScaled = true
+		ScreenGui.titulo_16.TextSize = 14.000
+		ScreenGui.titulo_16.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_16.TextStrokeTransparency = 0.000
+		ScreenGui.titulo_16.TextWrapped = true
+	
+		ScreenGui.button_19.Name = "button"
+		ScreenGui.button_19.Parent = ScreenGui.autoFusion
+		ScreenGui.button_19.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_19.BorderSizePixel = 0
+		ScreenGui.button_19.Position = UDim2.new(0.40788421, 0, 0.087851949, 0)
+		ScreenGui.button_19.Size = UDim2.new(0.592098296, 0, 0.784555018, 0)
+	
+		ScreenGui.autoFuse_3.Name = "autoFuse"
+		ScreenGui.autoFuse_3.Parent = ScreenGui.button_19
+		ScreenGui.autoFuse_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.autoFuse_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.autoFuse_3.BorderSizePixel = 0
+		ScreenGui.autoFuse_3.Position = UDim2.new(0.0909999982, 0, 0.0890000015, 0)
+		ScreenGui.autoFuse_3.Size = UDim2.new(0.382697076, 0, 0.792560816, 0)
+		ScreenGui.autoFuse_3.Font = Enum.Font.SourceSans
+		ScreenGui.autoFuse_3.Text = ""
+		ScreenGui.autoFuse_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.autoFuse_3.TextSize = 14.000
+	
+		ScreenGui.UICorner_69.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_69.Parent = ScreenGui.autoFuse_3
+	
+		ScreenGui.UICorner_70.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_70.Parent = ScreenGui.button_19
+	
+		ScreenGui.UICorner_71.CornerRadius = UDim.new(0.400000006, 0)
+		ScreenGui.UICorner_71.Parent = ScreenGui.autoFusion
+	
+		ScreenGui.Players_2.Name = "Players"
+		ScreenGui.Players_2.Parent = ScreenGui.styles
+		ScreenGui.Players_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Players_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Players_2.BorderSizePixel = 0
+		ScreenGui.Players_2.Position = UDim2.new(-5.47422871e-08, 0, 0, 0)
+		ScreenGui.Players_2.Size = UDim2.new(0.999999881, 0, 1, 0)
+		ScreenGui.Players_2.Visible = false
+	
+		ScreenGui.playerList_2.Name = "playerList"
+		ScreenGui.playerList_2.Parent = ScreenGui.Players_2
+		ScreenGui.playerList_2.Active = true
+		ScreenGui.playerList_2.BackgroundColor3 = Color3.fromRGB(0, 9, 33)
+		ScreenGui.playerList_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.playerList_2.BorderSizePixel = 0
+		ScreenGui.playerList_2.Position = UDim2.new(-7.28556843e-05, 0, 0.0979424119, 0)
+		ScreenGui.playerList_2.Size = UDim2.new(1.00007296, 0, 0.636625648, 0)
+		ScreenGui.playerList_2.CanvasSize = UDim2.new(0, 0, 4, 0)
+	
+		ScreenGui.name_2.Name = "name"
+		ScreenGui.name_2.Parent = ScreenGui.Players_2
+		ScreenGui.name_2.AnchorPoint = Vector2.new(0.5, 0.5)
+		ScreenGui.name_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.name_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.name_2.BorderSizePixel = 0
+		ScreenGui.name_2.Position = UDim2.new(0.111407742, 0, 0.0470123552, 0)
+		ScreenGui.name_2.Size = UDim2.new(0.219744906, 0, 0.0666008368, 0)
+		ScreenGui.name_2.Font = Enum.Font.SourceSans
+		ScreenGui.name_2.Text = "Name"
+		ScreenGui.name_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.name_2.TextScaled = true
+		ScreenGui.name_2.TextSize = 14.000
+		ScreenGui.name_2.TextWrapped = true
+	
+		ScreenGui.name_3.Name = "name"
+		ScreenGui.name_3.Parent = ScreenGui.Players_2
+		ScreenGui.name_3.AnchorPoint = Vector2.new(0.5, 0.5)
+		ScreenGui.name_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.name_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.name_3.BorderSizePixel = 0
+		ScreenGui.name_3.Position = UDim2.new(0.613725722, 0, 0.0470123552, 0)
+		ScreenGui.name_3.Size = UDim2.new(0.731575727, 0, 0.0666008368, 0)
+		ScreenGui.name_3.Font = Enum.Font.SourceSans
+		ScreenGui.name_3.Text = "Estadisticas"
+		ScreenGui.name_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.name_3.TextScaled = true
+		ScreenGui.name_3.TextSize = 14.000
+		ScreenGui.name_3.TextWrapped = true
+	
+		ScreenGui.Attack.Name = "Attack"
+		ScreenGui.Attack.Parent = ScreenGui.Players_2
+		ScreenGui.Attack.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.Attack.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Attack.BorderSizePixel = 0
+		ScreenGui.Attack.Position = UDim2.new(0.0156008117, 0, 0.780135095, 0)
+		ScreenGui.Attack.Size = UDim2.new(0.293072313, 0, 0.0933074728, 0)
+	
+		ScreenGui.titulo_17.Name = "titulo"
+		ScreenGui.titulo_17.Parent = ScreenGui.Attack
+		ScreenGui.titulo_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_17.BackgroundTransparency = 1.000
+		ScreenGui.titulo_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_17.BorderSizePixel = 0
+		ScreenGui.titulo_17.Position = UDim2.new(4.20700758e-07, 0, 0.138889238, 0)
+		ScreenGui.titulo_17.Size = UDim2.new(0.366544932, 0, 0.694444478, 0)
+		ScreenGui.titulo_17.Font = Enum.Font.Unknown
+		ScreenGui.titulo_17.Text = "Rebirth"
+		ScreenGui.titulo_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_17.TextScaled = true
+		ScreenGui.titulo_17.TextSize = 14.000
+		ScreenGui.titulo_17.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_17.TextStrokeTransparency = 0.000
+		ScreenGui.titulo_17.TextWrapped = true
+	
+		ScreenGui.button_20.Name = "button"
+		ScreenGui.button_20.Parent = ScreenGui.Attack
+		ScreenGui.button_20.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_20.BorderSizePixel = 0
+		ScreenGui.button_20.Position = UDim2.new(0.40788421, 0, 0.087851949, 0)
+		ScreenGui.button_20.Size = UDim2.new(0.592098296, 0, 0.784555018, 0)
+	
+		ScreenGui.Attack_2.Name = "Attack"
+		ScreenGui.Attack_2.Parent = ScreenGui.button_20
+		ScreenGui.Attack_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.Attack_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Attack_2.BorderSizePixel = 0
+		ScreenGui.Attack_2.Position = UDim2.new(0.0909999982, 0, 0.0890000015, 0)
+		ScreenGui.Attack_2.Size = UDim2.new(0.382697076, 0, 0.792560816, 0)
+		ScreenGui.Attack_2.Font = Enum.Font.SourceSans
+		ScreenGui.Attack_2.Text = ""
+		ScreenGui.Attack_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Attack_2.TextSize = 14.000
+	
+		ScreenGui.UICorner_72.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_72.Parent = ScreenGui.Attack_2
+	
+		ScreenGui.UICorner_73.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_73.Parent = ScreenGui.button_20
+	
+		ScreenGui.UICorner_74.CornerRadius = UDim.new(0.400000006, 0)
+		ScreenGui.UICorner_74.Parent = ScreenGui.Attack
+	
+		ScreenGui.tp.Name = "tp"
+		ScreenGui.tp.Parent = ScreenGui.Players_2
+		ScreenGui.tp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.tp.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.tp.BorderSizePixel = 0
+		ScreenGui.tp.Position = UDim2.new(0.351263762, 0, 0.885912895, 0)
+		ScreenGui.tp.Size = UDim2.new(0.293072313, 0, 0.0933074728, 0)
+	
+		ScreenGui.titulo_18.Name = "titulo"
+		ScreenGui.titulo_18.Parent = ScreenGui.tp
+		ScreenGui.titulo_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_18.BackgroundTransparency = 1.000
+		ScreenGui.titulo_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_18.BorderSizePixel = 0
+		ScreenGui.titulo_18.Position = UDim2.new(4.20700758e-07, 0, 0.138889238, 0)
+		ScreenGui.titulo_18.Size = UDim2.new(0.366544932, 0, 0.694444478, 0)
+		ScreenGui.titulo_18.Font = Enum.Font.Unknown
+		ScreenGui.titulo_18.Text = "Tp player"
+		ScreenGui.titulo_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_18.TextScaled = true
+		ScreenGui.titulo_18.TextSize = 14.000
+		ScreenGui.titulo_18.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_18.TextStrokeTransparency = 0.000
+		ScreenGui.titulo_18.TextWrapped = true
+	
+		ScreenGui.button_21.Name = "button"
+		ScreenGui.button_21.Parent = ScreenGui.tp
+		ScreenGui.button_21.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_21.BorderSizePixel = 0
+		ScreenGui.button_21.Position = UDim2.new(0.40788421, 0, 0.087851949, 0)
+		ScreenGui.button_21.Size = UDim2.new(0.592098296, 0, 0.784555018, 0)
+	
+		ScreenGui.Attack_3.Name = "Attack"
+		ScreenGui.Attack_3.Parent = ScreenGui.button_21
+		ScreenGui.Attack_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.Attack_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Attack_3.BorderSizePixel = 0
+		ScreenGui.Attack_3.Position = UDim2.new(0.0909999982, 0, 0.0890000015, 0)
+		ScreenGui.Attack_3.Size = UDim2.new(0.382697076, 0, 0.792560816, 0)
+		ScreenGui.Attack_3.Font = Enum.Font.SourceSans
+		ScreenGui.Attack_3.Text = ""
+		ScreenGui.Attack_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Attack_3.TextSize = 14.000
+	
+		ScreenGui.UICorner_75.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_75.Parent = ScreenGui.Attack_3
+	
+		ScreenGui.UICorner_76.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_76.Parent = ScreenGui.button_21
+	
+		ScreenGui.UICorner_77.CornerRadius = UDim.new(0.400000006, 0)
+		ScreenGui.UICorner_77.Parent = ScreenGui.tp
+	
+		ScreenGui.AttackDistancia.Name = "AttackDistancia"
+		ScreenGui.AttackDistancia.Parent = ScreenGui.Players_2
+		ScreenGui.AttackDistancia.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.AttackDistancia.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.AttackDistancia.BorderSizePixel = 0
+		ScreenGui.AttackDistancia.Position = UDim2.new(0.685131669, 0, 0.778176248, 0)
+		ScreenGui.AttackDistancia.Size = UDim2.new(0.293072313, 0, 0.0933074728, 0)
+	
+		ScreenGui.titulo_19.Name = "titulo"
+		ScreenGui.titulo_19.Parent = ScreenGui.AttackDistancia
+		ScreenGui.titulo_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_19.BackgroundTransparency = 1.000
+		ScreenGui.titulo_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_19.BorderSizePixel = 0
+		ScreenGui.titulo_19.Position = UDim2.new(4.20700758e-07, 0, 0.138889238, 0)
+		ScreenGui.titulo_19.Size = UDim2.new(0.366544932, 0, 0.694444478, 0)
+		ScreenGui.titulo_19.Font = Enum.Font.Unknown
+		ScreenGui.titulo_19.Text = "Distancia"
+		ScreenGui.titulo_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_19.TextScaled = true
+		ScreenGui.titulo_19.TextSize = 14.000
+		ScreenGui.titulo_19.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_19.TextStrokeTransparency = 0.000
+		ScreenGui.titulo_19.TextWrapped = true
+	
+		ScreenGui.button_22.Name = "button"
+		ScreenGui.button_22.Parent = ScreenGui.AttackDistancia
+		ScreenGui.button_22.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_22.BorderSizePixel = 0
+		ScreenGui.button_22.Position = UDim2.new(0.40788421, 0, 0.087851949, 0)
+		ScreenGui.button_22.Size = UDim2.new(0.592098296, 0, 0.784555018, 0)
+	
+		ScreenGui.Attack_4.Name = "Attack"
+		ScreenGui.Attack_4.Parent = ScreenGui.button_22
+		ScreenGui.Attack_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.Attack_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Attack_4.BorderSizePixel = 0
+		ScreenGui.Attack_4.Position = UDim2.new(0.0909999982, 0, 0.0890000015, 0)
+		ScreenGui.Attack_4.Size = UDim2.new(0.382697076, 0, 0.792560816, 0)
+		ScreenGui.Attack_4.Font = Enum.Font.SourceSans
+		ScreenGui.Attack_4.Text = ""
+		ScreenGui.Attack_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Attack_4.TextSize = 14.000
+	
+		ScreenGui.UICorner_78.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_78.Parent = ScreenGui.Attack_4
+	
+		ScreenGui.UICorner_79.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_79.Parent = ScreenGui.button_22
+	
+		ScreenGui.UICorner_80.CornerRadius = UDim.new(0.400000006, 0)
+		ScreenGui.UICorner_80.Parent = ScreenGui.AttackDistancia
+	
+		ScreenGui.punch.Name = "punch"
+		ScreenGui.punch.Parent = ScreenGui.Players_2
+		ScreenGui.punch.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.punch.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.punch.BorderSizePixel = 0
+		ScreenGui.punch.Position = UDim2.new(0.0371406749, 0, 0.887871742, 0)
+		ScreenGui.punch.Size = UDim2.new(0.293072313, 0, 0.0933074728, 0)
+	
+		ScreenGui.titulo_20.Name = "titulo"
+		ScreenGui.titulo_20.Parent = ScreenGui.punch
+		ScreenGui.titulo_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_20.BackgroundTransparency = 1.000
+		ScreenGui.titulo_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_20.BorderSizePixel = 0
+		ScreenGui.titulo_20.Position = UDim2.new(4.20700758e-07, 0, 0.138889238, 0)
+		ScreenGui.titulo_20.Size = UDim2.new(0.366544932, 0, 0.694444478, 0)
+		ScreenGui.titulo_20.Font = Enum.Font.Unknown
+		ScreenGui.titulo_20.Text = "Punch"
+		ScreenGui.titulo_20.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_20.TextScaled = true
+		ScreenGui.titulo_20.TextSize = 14.000
+		ScreenGui.titulo_20.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_20.TextStrokeTransparency = 0.000
+		ScreenGui.titulo_20.TextWrapped = true
+	
+		ScreenGui.button_23.Name = "button"
+		ScreenGui.button_23.Parent = ScreenGui.punch
+		ScreenGui.button_23.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_23.BorderSizePixel = 0
+		ScreenGui.button_23.Position = UDim2.new(0.40788421, 0, 0.087851949, 0)
+		ScreenGui.button_23.Size = UDim2.new(0.592098296, 0, 0.784555018, 0)
+	
+		ScreenGui.Attack_5.Name = "Attack"
+		ScreenGui.Attack_5.Parent = ScreenGui.button_23
+		ScreenGui.Attack_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.Attack_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Attack_5.BorderSizePixel = 0
+		ScreenGui.Attack_5.Position = UDim2.new(0.0909999982, 0, 0.0890000015, 0)
+		ScreenGui.Attack_5.Size = UDim2.new(0.382697076, 0, 0.792560816, 0)
+		ScreenGui.Attack_5.Font = Enum.Font.SourceSans
+		ScreenGui.Attack_5.Text = ""
+		ScreenGui.Attack_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Attack_5.TextSize = 14.000
+	
+		ScreenGui.UICorner_81.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_81.Parent = ScreenGui.Attack_5
+	
+		ScreenGui.UICorner_82.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_82.Parent = ScreenGui.button_23
+	
+		ScreenGui.UICorner_83.CornerRadius = UDim.new(0.400000006, 0)
+		ScreenGui.UICorner_83.Parent = ScreenGui.punch
+	
+		ScreenGui.punch_2.Name = "punch"
+		ScreenGui.punch_2.Parent = ScreenGui.Players_2
+		ScreenGui.punch_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.punch_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.punch_2.BorderSizePixel = 0
+		ScreenGui.punch_2.Position = UDim2.new(0.654616833, 0, 0.887871742, 0)
+		ScreenGui.punch_2.Size = UDim2.new(0.293072313, 0, 0.0933074728, 0)
+	
+		ScreenGui.titulo_21.Name = "titulo"
+		ScreenGui.titulo_21.Parent = ScreenGui.punch_2
+		ScreenGui.titulo_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_21.BackgroundTransparency = 1.000
+		ScreenGui.titulo_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_21.BorderSizePixel = 0
+		ScreenGui.titulo_21.Position = UDim2.new(4.20700758e-07, 0, 0.138889238, 0)
+		ScreenGui.titulo_21.Size = UDim2.new(0.366544932, 0, 0.694444478, 0)
+		ScreenGui.titulo_21.Font = Enum.Font.Unknown
+		ScreenGui.titulo_21.Text = "Attack Random"
+		ScreenGui.titulo_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.titulo_21.TextScaled = true
+		ScreenGui.titulo_21.TextSize = 14.000
+		ScreenGui.titulo_21.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.titulo_21.TextStrokeTransparency = 0.000
+		ScreenGui.titulo_21.TextWrapped = true
+	
+		ScreenGui.button_24.Name = "button"
+		ScreenGui.button_24.Parent = ScreenGui.punch_2
+		ScreenGui.button_24.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+		ScreenGui.button_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.button_24.BorderSizePixel = 0
+		ScreenGui.button_24.Position = UDim2.new(0.40788421, 0, 0.087851949, 0)
+		ScreenGui.button_24.Size = UDim2.new(0.592098296, 0, 0.784555018, 0)
+	
+		ScreenGui.Attack_6.Name = "Attack"
+		ScreenGui.Attack_6.Parent = ScreenGui.button_24
+		ScreenGui.Attack_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.Attack_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Attack_6.BorderSizePixel = 0
+		ScreenGui.Attack_6.Position = UDim2.new(0.0909999982, 0, 0.0890000015, 0)
+		ScreenGui.Attack_6.Size = UDim2.new(0.382697076, 0, 0.792560816, 0)
+		ScreenGui.Attack_6.Font = Enum.Font.SourceSans
+		ScreenGui.Attack_6.Text = ""
+		ScreenGui.Attack_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.Attack_6.TextSize = 14.000
+	
+		ScreenGui.UICorner_84.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_84.Parent = ScreenGui.Attack_6
+	
+		ScreenGui.UICorner_85.CornerRadius = UDim.new(1, 0)
+		ScreenGui.UICorner_85.Parent = ScreenGui.button_24
+	
+		ScreenGui.UICorner_86.CornerRadius = UDim.new(0.400000006, 0)
+		ScreenGui.UICorner_86.Parent = ScreenGui.punch_2
+	
+		ScreenGui.namePlayer_2.Name = "namePlayer"
+		ScreenGui.namePlayer_2.Parent = ScreenGui.Players_2
+		ScreenGui.namePlayer_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.namePlayer_2.BackgroundTransparency = 1.000
+		ScreenGui.namePlayer_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.namePlayer_2.BorderSizePixel = 0
+		ScreenGui.namePlayer_2.Position = UDim2.new(0.364382714, 0, 0.779621542, 0)
+		ScreenGui.namePlayer_2.Size = UDim2.new(0.263863355, 0, 0.0724773854, 0)
+		ScreenGui.namePlayer_2.Font = Enum.Font.Unknown
+		ScreenGui.namePlayer_2.Text = "..."
+		ScreenGui.namePlayer_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.namePlayer_2.TextScaled = true
+		ScreenGui.namePlayer_2.TextSize = 14.000
+		ScreenGui.namePlayer_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.namePlayer_2.TextStrokeTransparency = 0.000
+		ScreenGui.namePlayer_2.TextWrapped = true
+	
+		ScreenGui.errors.Name = "errors"
+		ScreenGui.errors.Parent = ScreenGui.ScreenGui
+		ScreenGui.errors.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ScreenGui.errors.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.errors.BorderSizePixel = 0
+		ScreenGui.errors.Position = UDim2.new(0.353917658, 0, 0.689320385, 0)
+		ScreenGui.errors.Size = UDim2.new(0.288844615, 0, 0.137135923, 0)
+		ScreenGui.errors.Visible = false
+		ScreenGui.errors.Font = Enum.Font.SourceSans
+		ScreenGui.errors.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ScreenGui.errors.TextScaled = true
+		ScreenGui.errors.TextSize = 14.000
+		ScreenGui.errors.TextWrapped = true
+	
+		-- Scripts:
+	
+		local function ADMY_fake_script() -- ScreenGui.open.Script 
+			local script = Instance.new('Script', ScreenGui.open)
+	
+	
+			local button = script.Parent
+			local frame = button.Parent.container1
+	
+			button.MouseButton1Click:Connect(function()
+	
+				frame.Visible = not frame.Visible	
+	
+			end)
+	
+		end
+		coroutine.wrap(ADMY_fake_script)()
+		local function ZWDKPG_fake_script() -- ScreenGui.buttons.buttons 
+			local script = Instance.new('Script', ScreenGui.buttons)
+	
+			--variables botones
+			local buttonFarm = script.Parent.Farm
+			local buttonOptions = script.Parent.Options
+			local buttonPlayers = script.Parent.Players
+			local buttonPremium = script.Parent.Premium
+			local buttonrequirement = script.Parent.requirement
+			--variables menu
+			local principal = script.Parent.Parent.styles
+			local farmMenu = principal.farm
+			local reqMenu = principal.requerimientos
+			local opMenu = principal.opciones
+			local vipMenu = principal.vip
+			local playersMenu = principal.Players
+	
+			--logica de mostrar el menu
+			local function mostrarMenu(menu)
+				local function hijos()
+					return principal:GetChildren()
+				end
+	
+				for i =1,#hijos() do
+					hijos()[i].Visible = false
+				end
+	
+				menu.Visible = true
+			end
+	
+			-- eventos
+			buttonFarm.MouseButton1Click:Connect(function()
+				mostrarMenu(farmMenu)
+			end)
+			buttonrequirement.MouseButton1Click:Connect(function()
+				mostrarMenu(reqMenu)
+			end)
+			buttonOptions.MouseButton1Click:Connect(function()
+				mostrarMenu(opMenu)
+			end)
+			buttonPremium.MouseButton1Click:Connect(function()
+				mostrarMenu(vipMenu)
+			end)
+			buttonPlayers.MouseButton1Click:Connect(function()
+				mostrarMenu(playersMenu)
+			end)
+		end
+		coroutine.wrap(ZWDKPG_fake_script)()
+		local function DCQJFVZ_fake_script() -- ScreenGui.farm.farmLogic 
+			local script = Instance.new('Script', ScreenGui.farm)
+	
+			local succes,fallo = pcall(function()
+				-- Funciones
+				local function actualizarButton(button,boolean)
+					if boolean then
+						button:TweenPosition(UDim2.new(0.5,0,button.Position.Y.Scale,0),Enum.EasingDirection.InOut,Enum.EasingStyle.Linear,0.3,0)
+						button.BackgroundColor3 = Color3.fromRGB(0, 255, 8)
+						print('Verdadero')
+					else
+						button:TweenPosition(UDim2.new(0.1,0,button.Position.Y.Scale,0),Enum.EasingDirection.InOut,Enum.EasingStyle.Linear,0.3,0)
+						button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+						print('false')
+					end
+				end
+	
+				local function allBoolean(btn,boolean)
+					if boolean then
+						actualizarButton(btn,boolean)
+					else
+						actualizarButton(btn,boolean)
+					end
+				end
+	
+				local function frase(txt)
+					local noRepetir
+					local frases = {
+						'El mejor farm actual',
+						'discord:\n"programmer_more"',
+						'Bajo costo!',
+						'¡Experiencia garantizada!',
+						'Descubre más ahora en mi pagina',
+					}
+	
+					local function num()
+						return math.random(1, 5)
+					end
+	
+					local escritura = frases[num()]
+					return escritura
+				end
+				local function letraPorLetra(txt)
+					local texto = frase(txt)
+					for i = 1, #texto do
+						txt.Text = txt.Text .. texto:sub(i, i)
+						wait(0.1)
+					end
+	
+					wait(3)
+					for i = #texto, 1, -1 do
+						txt.Text = texto:sub(1, i - 1)
+						wait(0.1)
+					end
+	
+					wait()
+					return letraPorLetra(txt)
+				end
+	
+				-- JSON
+				local httpService = game:GetService("HttpService")
+				local function jsonEncode(obj)
+					return httpService:JSONEncode(obj)
+				end
+				local function jsonDecode(obj)
+					return httpService:JSONDecode(obj)
+				end
+	
+				-- Variables
+				local nombreArchivo = 'Script_JYCB-HS.txt'
+	
+				local padre = script.Parent
+	
+				local texto = padre.namePlayer
+	
+				local btnRebirth = padre.Rerbirth.button.reb
+				local rebBoolean = false
+	
+				local btnFarm = padre.startFarm.button.farm
+				local farmBoolean = true
+	
+				local btnForm = padre.Transform.button.form
+				local formBoolean = true
+	
+				local btnStack = padre.stack.button.stackForm
+				local stackBoolean = true
+	
+				local btnBillsPlanet = padre.tpBills.button.tpBillsPlanet
+				local tpBillsBoolean = true
+	
+				local btnEsquivar = padre.distancia.button.distancia
+				local esquivarBoolean = false
+	
+				local btnInvisibildad = padre.invisilibidad.button.invisible
+				local invisibleBoolean = false
+	
+				local btnFly = padre.fly.button.fly
+				local flyBoolean = true
+	
+				local btnSaveRebirths = padre.guardarRebirths.button.sRebs
+				local saveRebirthsBoolean = true
+	
+				local btnAttackLejos = padre.atackDistancia.button.lejos
+				local lejosBoolean = false
+	
+				local btnEnergyAtaques = padre.ataquesEnergy.button.ataquesEnergy
+				local energyAtaquesBoolean = true
+	
+				-- Variables Farm
+				local events = game.ReplicatedStorage.Package.Events
+				local player = game.Players.LocalPlayer
+				local data = game.ReplicatedStorage.Datas[player.UserId]
+				local checkValue,SelectedQuests,SelectedMobs
+				local textBoss = padre.statsMe.textBoss
+				local multiQuest = {
+					{nombre= "SSJG Kakata",minimo = 37500000},
+					{nombre= "Broccoli",minimo = 12500000},
+					{nombre= "SSJB Wukong",minimo = 2000000},
+					{nombre= "Kai-fist Master",minimo = 1625000},
+					{nombre= "SSJ2 Wukong",minimo = 1250000},
+					{nombre= "Perfect Atom",minimo = 875000},
+					{nombre= "Chilly",minimo = 550000},
+					{nombre= "Super Vegetable",minimo = 187500},
+					{nombre= "Mapa",minimo = 30000},
+					{nombre= "Radish",minimo = 30000},
+					{nombre= "Kid Nohag",minimo = 30000},
+					{nombre= "Klirin",minimo = 30000}
+				}
+				local multiQuest2 = {
+					{nombre= "Vekuta (SSJBUI)",minimo = 1750000000},
+					{nombre= "Wukong Rose",minimo = 1500000000},
+					{nombre= "Vekuta (LBSSJ4)",minimo = 1150000000},
+					{nombre= "Wukong (LBSSJ4)",minimo = 775000000},
+					{nombre= "Vegetable (LBSSJ4)",minimo = 500000000},
+					{nombre= "Vis (20%)",minimo = 290000000},
+					{nombre= "Vills (50%)",minimo = 180000000},
+					{nombre= "Wukong (Omen)",minimo = 120000000},
+					{nombre= "Vegetable (GoD in-training)",minimo = 120000000},
+				}
+				local millon = 1000000
+				local arregloAtaques = {
+					{name = "God Slicer",requerido = millon * 60},
+					{name = "Spirit Barrage",requerido = millon * 60},
+					{name = "Flash Kick",requerido = millon / 2},
+					{name = "Spirit Breaking Cannon",requerido = 200000},
+					{name = "Mach Kick",requerido = 90000},
+					{name = "High Power Rush",requerido = 65000},
+					{name = "Meteor Crash",requerido = 28000},
+					{name = "Wolf Fang Fist",requerido = 2000},
+				}
+	
+				-- Variables Forms
+				local fases = {
+					{name = "SSJBUI",fuerza = 120000000},
+					{name = "Ultra Ego",fuerza =  120000000},
+					{name = "SSJB4",fuerza =50000000},
+					{name = "LBSSJ4",fuerza = 100000000},
+					{name = "True God of Creation",fuerza = 30000000},
+					{name = "True God of Destruction",fuerza = 30000000},
+					{name = "God of Creation",fuerza = 30000000},
+					{name = "God of Destruction",fuerza = 30000000},
+					{name = "SSJR3",fuerza = 50000000},
+					{name = "Super Broly",fuerza = 4000000},
+					{name = "Jiren Ultra Instinct",fuerza = 14000000},
+					{name = "Mastered Ultra Instinct",fuerza = 14000000},
+					{name = "Godly SSJ2",fuerza = 8000000},
+					{name = "LSSJG",fuerza = 3000000},
+					{name = "Ultra Instinct Omen",fuerza = 5000000},
+					{name = "LSSJ4",fuerza = 1800000},
+					{name = "SSJG4",fuerza = 1000000},
+					{name = "Evil SSJ",fuerza = 4000000},
+					{name = "Blue Evolution",fuerza = 3500000},
+					{name = "LSSJ3",fuerza = 800000},
+					{name = "Dark Rose",fuerza = 3500000},
+					{name = "SSJ Berseker",fuerza = 3000000},
+					{name = "Kefla SSJ2",fuerza = 3000000},
+					{name = "True Rose",fuerza = 2400000},
+					{name = "SSJ Blue Kaioken",fuerza = 2200000},
+					{name = "SSJ5",fuerza = 550000},
+					{name = "Mystic Kaioken",fuerza = 250000},
+					{name = "SSJ Rose",fuerza = 1400000},
+					{name = "SSJ Blue",fuerza = 1200000},
+					{name = "LSSJ Kaioken",fuerza = 160000},
+					{name = "Corrupt SSJ",fuerza = 700000},
+					{name = "SSJ Rage",fuerza = 700000},
+					{name = "SSJ2 Kaioken",fuerza = 50000},
+					{name = "SSJ4",fuerza = 300000},
+					{name = "Mystic",fuerza = 200000},
+					{name = "LSSJ",fuerza = 140000},
+					{name = "SSJ3",fuerza =95000},
+					{name = "SSJ2 Majin",fuerza = 65000},
+					{name = "Spirit SSJ",fuerza = 65000},
+					{name = "SSJ Kaioken",fuerza = 16000},
+				}
+				local fasesBug = {
+					{name = "Godly SSJ2",fuerza = 8000000},
+					{name = "LSSJ Kaioken",fuerza = 160000},
+					{name = "SSJ2 Kaioken",fuerza = 50000},
+					{name = "Mystic",fuerza = 200000},
+					{name = "SSJ3	",fuerza = 95000},
+					{name = "SSJ Kaioken",fuerza = 16000},
+				}
+				local equipRemote = game:GetService("ReplicatedStorage").Package.Events.equipskill
+	
+				-- Variables Rebirth
+				local rebirthsFolder = 'saveRebirths.txt'
+				local rebTest =  data.Rebirth.Value
+	
+				--Funciones Rebirth
+				local function executeReb()
+					pcall(function()
+						if rebBoolean then
+							game:GetService("ReplicatedStorage"):WaitForChild("Package"):WaitForChild("Events"):WaitForChild("reb"):InvokeServer()
+						end
+					end)
+				end
+				local function folderSaveRebirths()
+					if isfile(rebirthsFolder) then
+						return jsonDecode(readfile(rebirthsFolder))
+					else
+						local rebirthsArray = {}
+						writefile(rebirthsFolder,jsonEncode(rebirthsArray))
+						return jsonDecode(readfile(rebirthsFolder))
+					end
+				end
+	
+				--Funciones Farm
+				local function guardarConfig(archivo,valor)
+					writefile(archivo,valor)
+				end
+				local function strength()
+					return data.Strength.Value
+				end
+				local function energy()
+					return data.Energy.Value
+				end
+				local function defense()
+					return data.Defense.Value
+				end
+				local function speed()
+					return data.Speed.Value
+				end
+				local function rebirth()
+					return data.Rebirth.Value
+				end
+				local function guardarYvalidarRebirths()
+					pcall(function()
+						if rebTest ~= rebirth() then
+							local arrayRb = folderSaveRebirths()
+							table.insert(arrayRb,rebirth())
+							guardarConfig(rebirthsFolder,arrayRb)
+						end
+					end)
+				end
+				local function kiRequerimiento()
+					local necesario = energy() / 500
+					local divison = necesario / 10
+					return divison
+				end
+				local function kiMax()
+					return game:GetService("Players").LocalPlayer.Character.Stats.Ki.MaxValue
+				end
+				local function evaluarKi()
+					return game.Workspace.Living[player.Name].Stats.Ki.Value
+				end
+	
+				local function billsPlanet()	--bills
+					if tpBillsBoolean then
+						game:GetService("ReplicatedStorage").Package.Events.TP:InvokeServer("Vills Planet")
+					end
+				end
+				local function requerimientoMinimo()
+					if rebirth() >= 300 then
+						return tonumber(rebirth() * 200)
+					end
+					return 50000
+				end
+				local function earth()
+					wait()
+					if game.placeId ~= 3311165597 then
+						while true do
+							pcall(function()
+								local A_1 = "Earth"
+								local Event = game:GetService("ReplicatedStorage").Package.Events.TP
+								Event:InvokeServer(A_1)
+								wait()	
+							end)
+						end
+					end
+				end
+				local function validarPlayer()
+					return player.Character and player.Character:FindFirstChild("HumanoidRootPart")  and player.Character.Humanoid.Health > 0
+				end
+	
+				local function strengthManual()
+					local succes,fallo = pcall(function()
+						if strength() < requerimientoMinimo() then
+							local args = {
+								[1] = "Blacknwhite27",
+								[2] = 1
+							}
+							game:GetService("ReplicatedStorage").Package.Events.p:FireServer(unpack(args))
+						end
+					end)
+				end
+				local function energyManual()
+					local succes,fallo = pcall(function()
+						if energy() < requerimientoMinimo() then
+							local args = {
+								[1] = 1,
+								[2] = true,
+								[3] = CFrame.new(12, 12, 12)
+							}
+							game:GetService("ReplicatedStorage").Package.Events.kb:FireServer(unpack(args))
+						end
+					end)
+				end
+				local function speedManualOp()
+					pcall(function()
+						if speed() < requerimientoMinimo() then
+							local args = {
+								[1] = "Blacknwhite27"
+							}
+							game:GetService("ReplicatedStorage"):WaitForChild("Package"):WaitForChild("Events"):WaitForChild("ch"):InvokeServer(unpack(args))		
+	
+						end	
+					end)
+				end
+				local function speedManual()
+					local succes,fallo = pcall(function()
+						if speed() < requerimientoMinimo() then
+							game:GetService("ReplicatedStorage"):WaitForChild("Package"):WaitForChild("Events"):WaitForChild("of"):FireServer()
+						end
+					end)
+				end
+				local function defenseManual()
+					local succes,fallo = pcall(function()
+						if defense() < requerimientoMinimo() then
+							local args = {
+								[1] = "Blacknwhite27"
+							}
+							game:GetService("ReplicatedStorage").Package.Events.def:InvokeServer(unpack(args))
+						end
+					end)	
+				end
+	
+				local function manual()
+					local succes,fallo = pcall(function()
+						if defense() < requerimientoMinimo() or strength() < requerimientoMinimo() or energy() < requerimientoMinimo() or speed() < requerimientoMinimo() then
+							pcall(function()
+								repeat
+									validarPlayer()
+								until validarPlayer()
+							end)
+							repeat
+								pcall(function()
+									local contador = 0
+									if evaluarKi() <= kiRequerimiento() + 10 and strength() < requerimientoMinimo() and energy() < requerimientoMinimo() and defense() < requerimientoMinimo() and speed() < requerimientoMinimo() then
+										repeat
+											wait()
+											contador = contador + 1
+											if contador >= 15 then
+												speedManual()
+												contador = 0
+											end
+										until evaluarKi() >= kiMax() / 2
+									end
+									-- si todo sale bien entra aqui
+									if evaluarKi() >= kiRequerimiento() +10 then
+										spawn(function()
+											energyManual()
+											strengthManual()
+											speedManualOp()
+											speedManual()
+											defenseManual()
+											wait()
+										end)
+									end
+								end)
+								wait()
+							until defense() >= requerimientoMinimo() and energy() >= requerimientoMinimo() and strength() >= requerimientoMinimo() and speed() >= requerimientoMinimo()
+							wait(0.5)
+							earth()
+						end
+					end)
+				end
+	
+				local function empezarMinimo()
+					local minimo = math.huge
+	
+					local str = strength()
+					if str < minimo then
+						minimo = str
+					end
+					local spd = speed()
+					if spd < minimo then
+						minimo = spd
+					end
+					local def = defense()
+					if def < minimo then
+						minimo = def
+					end
+					local eng = energy()
+					if eng < minimo then
+						minimo = eng
+					end
+					return minimo
+				end
+	
+				-- Funciones Forms
+				local function selectedForm()	-- ve si es la fase equipada
+					return game.Players.LocalPlayer.Status.SelectedTransformation.Value
+				end
+				local function valorFase()	-- ve cual es la fase actual
+					return game.Players.LocalPlayer.Status.Transformation.Value
+				end
+				local function selectForm(array)--busca la fase
+					pcall(function()
+						for i,v in pairs(array) do
+							if empezarMinimo() >= v.fuerza then
+								equipRemote:InvokeServer(v.name)
+								if equipRemote:InvokeServer(v.name) or not validarPlayer() then
+									break
+								end
+							end
+						end
+					end)
+				end
+				local function transformar()
+					local succes,fallo = pcall(function()
+						repeat
+							wait()
+							if selectedForm() ~= valorFase() and evaluarKi() >= kiRequerimiento() and strength() >= requerimientoMinimo() and defense() >= requerimientoMinimo() and speed() >= requerimientoMinimo() and energy() >= requerimientoMinimo() then
+								game:GetService("ReplicatedStorage").Package.Events.ta:InvokeServer()
+								task.wait()
+								game:GetService("ReplicatedStorage").Package.Events.AuraTrigger:InvokeServer()
+							end
+						until selectedForm() == valorFase() or not formBoolean or not validarPlayer()
+					end)
+				end
+				local function ejecutaAtaque(ataque)
+					game:GetService("ReplicatedStorage").Package.Events.mel:InvokeServer(ataque, "Blacknwhite27")
+				end
+				local function ataquesMultiquest(atacar)
+					pcall(function()
+						wait()
+						for i,v in pairs(arregloAtaques) do
+							pcall(function()
+								if strength() >= v.requerido then
+									ejecutaAtaque(v.name)
+								end
+							end)
+						end
+					end)
+				end
+				local function transformacion()
+					pcall(function()
+						if formBoolean then
+							if validarPlayer() then
+								selectForm(fases)
+								transformar()
+							else
+								if strength() >= requerimientoMinimo() and defense() >= requerimientoMinimo() and speed() >= requerimientoMinimo() and energy() >= requerimientoMinimo() and stackBoolean then
+									wait(7)
+									if stackBoolean then
+										selectForm(fasesBug)
+										wait()
+										player.Character.Humanoid.Health = 0
+										local a = 0
+										wait(5.5)
+										repeat
+											game:GetService("ReplicatedStorage").Package.Events.ta:InvokeServer()
+											a = a + 1
+										until a >=12
+									end
+								end
+							end
+						end
+					end)
+				end
+				local function iteradorQuest(array)
+					textBoss.Text = 'Quest >> Loading...'
+					wait()
+					if farmBoolean then
+						for i,jefe in pairs(array) do
+							for indice, v in ipairs(game:GetService("Workspace").Living:GetChildren()) do
+								if checkValue >= jefe.minimo and jefe.nombre == v.Name and validarPlayer() and v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and farmBoolean and v.Humanoid.Health >0 then
+									SelectedQuests = v.Name
+									SelectedMobs = SelectedQuests
+									textBoss.Text = 'Quest >> '..SelectedQuests
+									return
+								end
+							end
+						end 
+					else
+						textBoss.Text = 'Quest >> Cancelado'
+					end
+				end
+	
+				local function seleccionarQuest()
+					executeReb()
+					wait()
+					guardarYvalidarRebirths()
+					wait()
+					manual()
+					wait()
+					transformacion()
+					local m50 = 120000000
+					pcall(function()
+						checkValue = empezarMinimo()
+						if game.placeId ~= 3311165597 then
+							--evaluar si tiene stats para bills
+							if strength() <m50 or defense() < m50 or energy() < m50 or speed() <m50 then
+								earth()
+							end
+							iteradorQuest(multiQuest2)
+						else
+							pcall(function()
+								if strength() >= m50 and defense() >= m50 and energy() >=m50 and speed() >=m50 then
+									billsPlanet()
+								end
+							end)
+							iteradorQuest(multiQuest)
+						end
+					end)
+				end
+	
+				local function quest()
+					pcall(function()
+						if game:GetService("ReplicatedStorage").Datas[player.UserId].Quest.Value ~= SelectedQuests and farmBoolean and validarPlayer() then
+							player.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Others.NPCs[SelectedQuests].HumanoidRootPart.CFrame
+							repeat			
+								wait()
+								events.Qaction:InvokeServer(game:GetService("Workspace").Others.NPCs[SelectedQuests])
+							until game:GetService("ReplicatedStorage").Datas[player.UserId].Quest.Value == SelectedQuests or not farmBoolean or not validarPlayer()
+						end
+					end)
+				end
+	
+				local function requerimientoVida()
+					return game:GetService("Players").LocalPlayer.Character.Humanoid.MaxHealth / 10
+				end
+				local function vidaActual()
+					return game:GetService("Players").LocalPlayer.Character.Humanoid.Health
+				end
+				local function atacarJefeSeguido(enemigo)
+					player.Character.HumanoidRootPart.CFrame = enemigo	
+				end
+	
+				local function validatorEsquivar()
+					return vidaActual() >= requerimientoVida()
+				end
+	
+				local function farmStart()
+					while farmBoolean do
+						local succes,fallo = pcall(function()
+							wait()
+							if game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart") and farmBoolean then
+								for i, v in ipairs(game:GetService("Workspace").Living:GetChildren()) do
+									seleccionarQuest()
+									if v.Name == SelectedMobs and player.Character and player.Character:FindFirstChild("HumanoidRootPart") and v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 and farmBoolean then
+										quest()
+										wait()
+										pcall(function()
+											repeat--aqui va la logica
+												local function enem()
+													return v.HumanoidRootPart.CFrame
+												end
+												pcall(function()
+													spawn(function()
+														if not lejosBoolean then
+															if esquivarBoolean then
+																if validatorEsquivar() then
+																	atacarJefeSeguido(enem() * CFrame.new(0,0,2))
+																else
+																	atacarJefeSeguido(enem() * CFrame.new(0,10,80))
+																end
+															else
+																atacarJefeSeguido(enem() * CFrame.new(0,0,2))
+															end
+														else
+															atacarJefeSeguido(enem() * CFrame.new(0,0,60))
+														end
+													end)
+													spawn(function()
+														if not lejosBoolean then
+															if esquivarBoolean then
+																if validatorEsquivar() then
+																	if evaluarKi() >= kiRequerimiento() + 30 then
+																		ataquesMultiquest(enem())
+																	end
+																end
+															else
+																if evaluarKi() >= kiRequerimiento() + 30 then
+																	ataquesMultiquest(enem())
+																end
+															end
+														else
+															if evaluarKi() >= kiRequerimiento() + 30 then
+																--aqui van los ataques de energy
+															end
+														end
+													end)
+												end)
+											until v == nil or v.Humanoid.Health <= 0 or not validarPlayer() or not farmBoolean
+										end)
+									end
+								end
+							end
+						end)
+					end
+				end
+	
+				-- Eventos
+				btnRebirth.MouseButton1Click:Connect(function()
+					rebBoolean = not rebBoolean
+					allBoolean(btnRebirth,rebBoolean)
+				end)
+	
+				btnForm.MouseButton1Click:Connect(function()
+					formBoolean = not formBoolean
+					allBoolean(btnForm,formBoolean)
+				end)
+	
+				btnStack.MouseButton1Click:Connect(function()
+					stackBoolean = not stackBoolean
+					allBoolean(btnStack,stackBoolean)
+				end)
+	
+				btnBillsPlanet.MouseButton1Click:Connect(function()
+					tpBillsBoolean = not tpBillsBoolean
+					allBoolean(btnBillsPlanet,tpBillsBoolean)
+				end)
+	
+				btnEsquivar.MouseButton1Click:Connect(function()
+					esquivarBoolean = not esquivarBoolean
+					allBoolean(btnEsquivar,esquivarBoolean)
+				end)
+	
+				btnInvisibildad.MouseButton1Click:Connect(function() -- pendiente
+					invisibleBoolean = not invisibleBoolean
+					allBoolean(btnInvisibildad,invisibleBoolean)
+				end)
+				btnFly.MouseButton1Click:Connect(function() -- pendiente
+					flyBoolean = not flyBoolean
+					allBoolean(btnFly,flyBoolean)
+				end)
+				btnSaveRebirths.MouseButton1Click:Connect(function() -- pendiente
+					saveRebirthsBoolean = not saveRebirthsBoolean
+					allBoolean(btnSaveRebirths,saveRebirthsBoolean)
+				end)
+	
+				btnAttackLejos.MouseButton1Click:Connect(function()
+					lejosBoolean = not lejosBoolean
+					allBoolean(btnAttackLejos,lejosBoolean)
+				end)
+	
+				btnEnergyAtaques.MouseButton1Click:Connect(function() -- pendiente
+					energyAtaquesBoolean = not energyAtaquesBoolean
+					allBoolean(btnEnergyAtaques,energyAtaquesBoolean)
+				end)
+	
+				-- Logica principal
+				btnFarm.MouseButton1Click:Connect(function()
+					farmBoolean = not farmBoolean
+					if farmBoolean then
+						farmStart()
+					end
+					allBoolean(btnFarm,farmBoolean)
+				end)
+	
+	
+				letraPorLetra(texto)
+			end)
+	
+			if fallo then
+				local textErros = script.Parent.Parent.Parent.Parent.Parent.errors
+				textErros.Visible = true
+				textErros.Text = 'Farm '..fallo
+				wait(5)
+				textErros.Visible = false
+			end
+	
+		end
+		coroutine.wrap(DCQJFVZ_fake_script)()
+		local function ZOYYHR_fake_script() -- ScreenGui.minimoRequerimiento.SliderHandler 
+			local script = Instance.new('LocalScript', ScreenGui.minimoRequerimiento)
+	
+			local sliderBG = script.Parent
+			local slider = sliderBG:WaitForChild("Slider")
+			local mouse = game.Players.LocalPlayer:GetMouse()
+			local movingSlider = false
+			local pixelsFromEdge = 10
+	
+			slider.MouseButton1Down:Connect(function()
+				movingSlider = true
+			end)
+	
+			slider.MouseButton1Up:Connect(function()
+				movingSlider = false
+			end)
+	
+			mouse.Button1Up:Connect(function()
+				movingSlider = false
+			end)
+	
+			mouse.Move:Connect(function()
+				if movingSlider then
+					local xOffset = mouse.X - sliderBG.AbsolutePosition.X 
+					xOffset = math.clamp(xOffset, pixelsFromEdge, sliderBG.AbsoluteSize.X - pixelsFromEdge) 
+	
+					local sliderPos = (xOffset - pixelsFromEdge) / (sliderBG.AbsoluteSize.X - 2 * pixelsFromEdge) 
+					sliderPos = math.clamp(sliderPos, 0, 1) 
+	
+					local xOffsetClamped = sliderPos * (sliderBG.AbsoluteSize.X - 2 * pixelsFromEdge) + pixelsFromEdge 
+					local sliderPosNew = UDim2.new(0, xOffsetClamped, 0.5)
+					slider.Position = sliderPosNew
+				end
+			end)
+	
+		end
+		coroutine.wrap(ZOYYHR_fake_script)()
+		local function YDSEBIZ_fake_script() -- ScreenGui.vekuBUI.SliderHandler 
+			local script = Instance.new('LocalScript', ScreenGui.vekuBUI)
+	
+			local sliderBG = script.Parent
+			local slider = sliderBG:WaitForChild("Slider")
+			local mouse = game.Players.LocalPlayer:GetMouse()
+			local movingSlider = false
+			local pixelsFromEdge = 10
+	
+			slider.MouseButton1Down:Connect(function()
+				movingSlider = true
+			end)
+	
+			slider.MouseButton1Up:Connect(function()
+				movingSlider = false
+			end)
+	
+			mouse.Button1Up:Connect(function()
+				movingSlider = false
+			end)
+	
+			mouse.Move:Connect(function()
+				if movingSlider then
+					local xOffset = mouse.X - sliderBG.AbsolutePosition.X 
+					xOffset = math.clamp(xOffset, pixelsFromEdge, sliderBG.AbsoluteSize.X - pixelsFromEdge) 
+	
+					local sliderPos = (xOffset - pixelsFromEdge) / (sliderBG.AbsoluteSize.X - 2 * pixelsFromEdge) 
+					sliderPos = math.clamp(sliderPos, 0, 1) 
+	
+					local xOffsetClamped = sliderPos * (sliderBG.AbsoluteSize.X - 2 * pixelsFromEdge) + pixelsFromEdge 
+					local sliderPosNew = UDim2.new(0, xOffsetClamped, 0.5)
+					slider.Position = sliderPosNew
+				end
+			end)
+	
+		end
+		coroutine.wrap(YDSEBIZ_fake_script)()
+		local function BRUB_fake_script() -- ScreenGui.StatsRose.SliderHandler 
+			local script = Instance.new('LocalScript', ScreenGui.StatsRose)
+	
+			local sliderBG = script.Parent
+			local slider = sliderBG:WaitForChild("Slider")
+			local mouse = game.Players.LocalPlayer:GetMouse()
+			local movingSlider = false
+			local pixelsFromEdge = 10
+	
+			slider.MouseButton1Down:Connect(function()
+				movingSlider = true
+			end)
+	
+			slider.MouseButton1Up:Connect(function()
+				movingSlider = false
+			end)
+	
+			mouse.Button1Up:Connect(function()
+				movingSlider = false
+			end)
+	
+			mouse.Move:Connect(function()
+				if movingSlider then
+					local xOffset = mouse.X - sliderBG.AbsolutePosition.X 
+					xOffset = math.clamp(xOffset, pixelsFromEdge, sliderBG.AbsoluteSize.X - pixelsFromEdge) 
+	
+					local sliderPos = (xOffset - pixelsFromEdge) / (sliderBG.AbsoluteSize.X - 2 * pixelsFromEdge) 
+					sliderPos = math.clamp(sliderPos, 0, 1) 
+	
+					local xOffsetClamped = sliderPos * (sliderBG.AbsoluteSize.X - 2 * pixelsFromEdge) + pixelsFromEdge 
+					local sliderPosNew = UDim2.new(0, xOffsetClamped, 0.5)
+					slider.Position = sliderPosNew
+				end
+			end)
+	
+		end
+		coroutine.wrap(BRUB_fake_script)()
+		local function ECVFDO_fake_script() -- ScreenGui.StatstpBills.SliderHandler 
+			local script = Instance.new('LocalScript', ScreenGui.StatstpBills)
+	
+			local sliderBG = script.Parent
+			local slider = sliderBG:WaitForChild("Slider")
+			local mouse = game.Players.LocalPlayer:GetMouse()
+			local movingSlider = false
+			local pixelsFromEdge = 10
+	
+			slider.MouseButton1Down:Connect(function()
+				movingSlider = true
+			end)
+	
+			slider.MouseButton1Up:Connect(function()
+				movingSlider = false
+			end)
+	
+			mouse.Button1Up:Connect(function()
+				movingSlider = false
+			end)
+	
+			mouse.Move:Connect(function()
+				if movingSlider then
+					local xOffset = mouse.X - sliderBG.AbsolutePosition.X 
+					xOffset = math.clamp(xOffset, pixelsFromEdge, sliderBG.AbsoluteSize.X - pixelsFromEdge) 
+	
+					local sliderPos = (xOffset - pixelsFromEdge) / (sliderBG.AbsoluteSize.X - 2 * pixelsFromEdge) 
+					sliderPos = math.clamp(sliderPos, 0, 1) 
+	
+					local xOffsetClamped = sliderPos * (sliderBG.AbsoluteSize.X - 2 * pixelsFromEdge) + pixelsFromEdge 
+					local sliderPosNew = UDim2.new(0, xOffsetClamped, 0.5)
+					slider.Position = sliderPosNew
+				end
+			end)
+	
+		end
+		coroutine.wrap(ECVFDO_fake_script)()
+		local function MCUEP_fake_script() -- ScreenGui.fps.SliderHandler 
+			local script = Instance.new('LocalScript', ScreenGui.fps)
+	
+			local sliderBG = script.Parent
+			local slider = sliderBG:WaitForChild("Slider")
+			local mouse = game.Players.LocalPlayer:GetMouse()
+			local movingSlider = false
+			local pixelsFromEdge = 10
+	
+			slider.MouseButton1Down:Connect(function()
+				movingSlider = true
+			end)
+	
+			slider.MouseButton1Up:Connect(function()
+				movingSlider = false
+			end)
+	
+			mouse.Button1Up:Connect(function()
+				movingSlider = false
+			end)
+	
+			mouse.Move:Connect(function()
+				if movingSlider then
+					local xOffset = mouse.X - sliderBG.AbsolutePosition.X 
+					xOffset = math.clamp(xOffset, pixelsFromEdge, sliderBG.AbsoluteSize.X - pixelsFromEdge) 
+	
+					local sliderPos = (xOffset - pixelsFromEdge) / (sliderBG.AbsoluteSize.X - 2 * pixelsFromEdge) 
+					sliderPos = math.clamp(sliderPos, 0, 1) 
+	
+					local xOffsetClamped = sliderPos * (sliderBG.AbsoluteSize.X - 2 * pixelsFromEdge) + pixelsFromEdge 
+					local sliderPosNew = UDim2.new(0, xOffsetClamped, 0.5)
+					slider.Position = sliderPosNew
+				end
+			end)
+	
+		end
+		coroutine.wrap(MCUEP_fake_script)()
+		local function NUCGD_fake_script() -- ScreenGui.opciones.Script 
+			local script = Instance.new('Script', ScreenGui.opciones)
+	
+			pcall(function()
+				-- variables
+				local padre = script.Parent
+				local op1 = padre.opcion1
+				local op2 = padre.opcion2
+	
+				--frames
+				local fasesActiveFrame = op1.fasesActive
+				local fasesDesactivadasFrame = op1.fasesDesactivadas
+	
+				local ataquesActivadosFrame = op2.ataquesActivados
+				local ataquesDesactivadosFrame = op2.ataquesDesactivados
+	
+				-- agranda el frame
+				local function scrollingGrande(frame,valor)
+					frame.CanvasSize = UDim2.new(0, 0, 0, valor)
+				end
+	
+				-- Forms
+				scrollingGrande(fasesActiveFrame,1600)
+				scrollingGrande(fasesDesactivadasFrame,1500)
+	
+				-- Ataques
+				scrollingGrande(ataquesActivadosFrame,800)
+				scrollingGrande(ataquesDesactivadosFrame,800)
+	
+			end)
+		end
+		coroutine.wrap(NUCGD_fake_script)()
+		local function WITNAPI_fake_script() -- ScreenGui.playerFuse.buttons2 
+			local script = Instance.new('Script', ScreenGui.playerFuse)
+	
+			-- botones
+			local padre = script.Parent
+			local buttonManual = padre.Manual
+			local buttonAutomatico = padre.Automatico
+	
+			-- menu
+			local manualMenu = padre.manual
+			local autoMenu = padre.automatico
+	
+			--ver menu
+			local function mostrarMenu(menu1,menu2)
+				menu1.Visible = false
+				menu2.Visible = true
+			end
+	
+			--eventos
+			buttonManual.MouseButton1Click:Connect(function()
+				pcall(function()
+					mostrarMenu(autoMenu,manualMenu)
+				end)
+			end)
+		end
+		coroutine.wrap(WITNAPI_fake_script)()
+		local function XWKMEOF_fake_script() -- ScreenGui.principal.moverMenu 
+			local script = Instance.new('Script', ScreenGui.principal)
+	
+			pcall(function()
+				local a=script.Parent
+				a.Active=true
+				a.Draggable=true
+			end)
+		end
+		coroutine.wrap(XWKMEOF_fake_script)()
+		local function RCXE_fake_script() -- ScreenGui.ScreenGui.menuLoading 
+			local script = Instance.new('Script', ScreenGui.ScreenGui)
+	
+			pcall(function()
+				local nombreArchivo = 'Script_JYCB-HS.txt'
+	
+				local obj = {
+					farm = true,
+					rebirth = false,
+					form = true,
+					stackForm = true,
+					billsPlanet = true,
+					esquivar = false,
+					invisibilidad = false,
+					fly = true,
+					saveRebirths = true,
+					distancia = false,
+					minimoRequerimiento = 50000,
+					statsVekuBui = 1375000000,
+					statsTpBills = 50000000,
+					statsWukongRose = 1250000000,
+					fps = 60,
+					fasesActivas = {
+						{name = "SSJBUI",fuerza = 120000000},
+						{name = "Ultra Ego",fuerza =  120000000},
+						{name = "SSJB4",fuerza =50000000},
+						{name = "LBSSJ4",fuerza = 100000000},
+						{name = "True God of Creation",fuerza = 30000000},
+						{name = "True God of Destruction",fuerza = 30000000},
+						{name = "God of Creation",fuerza = 30000000},
+						{name = "God of Destruction",fuerza = 30000000},
+						{name = "SSJR3",fuerza = 50000000},
+						{name = "Super Broly",fuerza = 4000000},
+						{name = "Jiren Ultra Instinct",fuerza = 14000000},
+						{name = "Mastered Ultra Instinct",fuerza = 14000000},
+						{name = "Godly SSJ2",fuerza = 8000000},
+						{name = "LSSJG",fuerza = 3000000},
+						{name = "Ultra Instinct Omen",fuerza = 5000000},
+						{name = "LSSJ4",fuerza = 1800000},
+						{name = "SSJG4",fuerza = 1000000},
+						{name = "Evil SSJ",fuerza = 4000000},
+						{name = "Blue Evolution",fuerza = 3500000},
+						{name = "LSSJ3",fuerza = 800000},
+						{name = "Dark Rose",fuerza = 3500000},
+						{name = "SSJ Berseker",fuerza = 3000000},
+						{name = "Kefla SSJ2",fuerza = 3000000},
+						{name = "True Rose",fuerza = 2400000},
+						{name = "SSJ Blue Kaioken",fuerza = 2200000},
+						{name = "SSJ5",fuerza = 550000},
+						{name = "Mystic Kaioken",fuerza = 250000},
+						{name = "SSJ Rose",fuerza = 1400000},
+						{name = "SSJ Blue",fuerza = 1200000},
+						{name = "LSSJ Kaioken",fuerza = 160000},
+						{name = "Corrupt SSJ",fuerza = 700000},
+						{name = "SSJ Rage",fuerza = 700000},
+						{name = "SSJ2 Kaioken",fuerza = 50000},
+						{name = "SSJ4",fuerza = 300000},
+						{name = "Mystic",fuerza = 200000},
+						{name = "LSSJ",fuerza = 140000},
+						{name = "SSJ3",fuerza =95000},
+						{name = "SSJ2 Majin",fuerza = 65000},
+						{name = "Spirit SSJ",fuerza = 65000},
+						{name = "SSJ Kaioken",fuerza = 16000},
+					},
+					fasesDesactivadas = {},
+					ataquesActivados= {
+						{name = 'Spirit Barrage',fuerza = 60000000},
+						{name = 'God Slicer',fuerza = 60000000},
+						{name = 'Super Dragon Fist',fuerza = 50000000},
+						{name = 'Flash Kick',fuerza = 500000},
+						{name = 'Spirit Breaking Cannon',fuerza = 200000},
+						{name = 'Meteor Strike',fuerza = 130000},
+						{name = 'Mach Kick',fuerza = 90000},
+						{name = 'High Power Rush',fuerza = 65000},
+						{name = 'Vanish Strike',fuerza = 40000},
+						{name = 'Meteor Crash',fuerza = 28000},
+						{name = 'Bone Crusher',fuerza = 18000},
+						{name = 'Meteor Charge',fuerza = 12000},
+						{name = 'Uppercut',fuerza = 2000},
+						{name = 'Wolf Fang Fist',fuerza = 2000},
+						{name = 'Sledgehammer',fuerza = 1000},
+						{name = 'Vital Strike',fuerza = 500},
+					},
+					ataquesDesactivados = {},
+					billsFuse = true,
+					earthFuse = true,
+					autoFuse = true,
+					nameFuse = '',
+					ataquesEnergy = {
+						{name = '100x Big Bang Kamehameha',subName = 'be',fuerza = 80000000},
+						{name = 'Soul Punisher',subName = 'Hak',fuerza = 40000000},
+						{name = 'Destruction',subName = 'Hak',fuerza = 40000000},
+						{name = 'Destruction Orb',subName = 'BigBall',fuerza = 20000000},
+						{name = 'God Blast',subName = 'be',fuerza = 12000000},
+						{name = 'Big Bang Kamehameha',subName = 'be',fuerza = 1800000},
+						{name = 'Energy Volley',subName = 'voleys',fuerza = 4000},
+					}
+				}
+			end)
+		end
+		coroutine.wrap(RCXE_fake_script)()
+	
+	end)
+	
+	local textErros = script.Parent.error
+	
+	pcall(function()
+		if fallo then
+			textErros.Visible = true
+			textErros.Text = 'Error en '..fallo
+			
+		end
+	end)
+	
+end
+coroutine.wrap(WYKZ_fake_script)()
