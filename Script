@@ -267,3 +267,11 @@ local Button = MainTab:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NixScripts/Script/main/message%20(1).txt"))(), true))()
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "Discord",
+   Callback = function()
+   _G.IY = not _G.IY
+https://discord.com/invite/ukAy6qNsJb, true))()
+   end,
+})
