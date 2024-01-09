@@ -253,22 +253,6 @@ local StackToggle = MainTab:CreateButton({
 
 
 local Button = MainTab:CreateButton({
-   Name = "Remote Spy",
-   Callback = function()
-   _G.RemoteSpy = not _G.RemoteSpy
-loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
-   end,
-})
-
-local Button = MainTab:CreateButton({
-   Name = "Infinite Yield",
-   Callback = function()
-   _G.IY = not _G.IY
-loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-   end,
-})
-
-local Button = MainTab:CreateButton({
    Name = "Anti Afk",
    Callback = function()
    _G.IY = not _G.IY
