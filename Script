@@ -275,3 +275,11 @@ local Button = MainTab:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "Speed Farm (Beta)",
+   Callback = function()
+   _G.IY = not _G.IY
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NixScripts/Script/main/message%20(1).txt"))(), true))()
+   end,
+})
